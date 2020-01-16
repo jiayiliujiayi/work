@@ -26,7 +26,7 @@
   - [ ] 007 PMH not available
   - [x] schematic workflow
   - [ ] cell type table and piecharts  
-  - [ ] check the .Key file: schematic@formalin fixation
+  - [X] check the .Key file: schematic@formalin fixation
   
 ------
 **sscontest** 
@@ -44,5 +44,5 @@
 
 #### meeting
 
-- 2020.1.15
-  - 007 pmh not available
+~~- 2020.1.15~~  
+  ~~- 007 pmh not available~~
