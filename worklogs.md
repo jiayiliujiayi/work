@@ -3,6 +3,7 @@
 **general**
 
 - [ ] summarize scripts: do infercnv and plot using complexheatmap
+- [ ] add gather scripts (ref: zhaoproject folder)
 
 ------
 **Legacy**  
@@ -23,9 +24,10 @@
   - [ ] DNA analysis
 - wrapups  
   - [x] patient PMH  
-  - [ ] 007 PMH not available
+  - [x] 007 PMH not available
+  - [ ] update 007 PMH
   - [x] schematic workflow
-  - [ ] cell type table and piecharts  
+  - [ ] cell type table and piecharts (ggplot)  
   - [X] check the .Key file: schematic@formalin fixation
   
 ------
