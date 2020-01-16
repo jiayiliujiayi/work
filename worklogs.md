@@ -22,21 +22,21 @@
   - [ ] plot cnv using complexheatmap  
   - [ ] DNA analysis
 - wrapups  
-  - [ ] patient PMH  
+  - [x] patient PMH  
   - [ ] 007 PMH not available
-  - [ ] schematic workflow
+  - [x] schematic workflow
   - [ ] cell type table and piecharts  
   - [ ] check the .Key file: schematic@formalin fixation
   
 ------
 **sscontest** 
 
-  - [ ] zinbwave do ssgsea for jason zinbwave c2h  
+  - [x] zinbwave do ssgsea for jason zinbwave c2h  
 
 ------
 **misc**  
   - [ ] docker on unicron
-  - [ ] singler in singluarity r on unicron: not working -- rjags has non zero exit status
+  - [x] singler in singluarity r on unicron: not working -- rjags has non zero exit status
 
 
 
