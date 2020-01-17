@@ -23,7 +23,7 @@
   - [ ] DNA analysis
 - wrapups  
   - [x] patient PMH  
-  - [ ] 007 PMH not available
+  - [x] 007 PMH not available
   - [x] schematic workflow
   - [ ] cell type table and piecharts  
   - [X] check the .Key file: schematic@formalin fixation
