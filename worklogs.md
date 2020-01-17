@@ -12,11 +12,11 @@
   ……  
   - [ ] Pareto  
   - [ ] stat test on RTK among cancer clusters  
-  - [ ] DNA analysis
+  - [ ] DNA analysis (WES on the way)
 - BRST006  
   ……  
   - [ ] Pareto  
-  - [ ] DNA analysis
+  - [ ] DNA analysis (WES on the way)
 - BRST007  
   ……  
   - [ ] wait for xuan's infercnv regression results to differ cancer from normal  
@@ -37,8 +37,11 @@
 
 ------
 **misc**  
+
   - [ ] docker on unicron
+  - [ ] jupyter notebook via docker, possible [ref](https://www.dataquest.io/blog/docker-data-science/)
   - [x] singler in singluarity r on unicron: not working -- rjags has non zero exit status
+  - [ ] send jeff dir to the pat1 cancer counts
 
 
 
