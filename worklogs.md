@@ -3,6 +3,7 @@
 **general**
 
 - [ ] summarize scripts: do infercnv and plot using complexheatmap
+- [ ] add gather scripts (ref: zhaoproject folder)
 
 ------
 **Legacy**  
@@ -25,11 +26,11 @@
   - [x] patient PMH  
   - [x] 007 PMH not available
   - [x] schematic workflow
-  - [ ] cell type table and piecharts  
+  - [ ] cell type table and piecharts (ggplot)  
   - [X] check the .Key file: schematic@formalin fixation
-  
+
 ------
-**sscontest** 
+**sscontest**
 
   - [x] zinbwave do ssgsea for jason zinbwave c2h  
 
