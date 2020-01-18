@@ -2,7 +2,8 @@
 
 **general**
 
-- [ ] summarize scripts: do infercnv and plot using complexheatmap
+- [ ] summarize scripts: plot cnv using complexheatmap R3.4 (input "nferCNV.obs.txt" from R3.6 in .sif), 
+  - [ ] or try Infercnv&complexheatmap in singluarity container?  
 - [x] add gather scripts (ref: zhaoproject folder)
 
 ------
@@ -58,4 +59,3 @@
 1. 2020-01-12 18:20, chrome crashed then the OS didn't respond
 2. 2020-01-17 13:06, chrome crashed, tried restarting chrome but stucked at the pwd priviledging step. Then the OS didn't respond.  
 3. 
-
