@@ -3,7 +3,7 @@
 **general**
 
 - [ ] summarize scripts: plot cnv using complexheatmap R3.4 (input "nferCNV.obs.txt" from R3.6 in .sif), 
-  - [ ] or try Infercnv&complexheatmap in singluarity container?  
+  ~~- [ ] or try Infercnv&complexheatmap in singluarity container?~~ % after the container is done.  
 - [x] add gather scripts (ref: zhaoproject folder)
 
 ------
@@ -21,6 +21,7 @@
 - BRST007  
   ……  
   - [ ] wait for xuan's infercnv regression results to differ cancer from normal  
+  - [ ] try tsne on the high quality cells, labeled by SampleIDs or infercnv hclusts. 
   - [ ] check PTPRC levels in the annotated "cancer"s
   - [ ] plot cnv using complexheatmap  
   - [ ] DNA analysis (check if WES)
