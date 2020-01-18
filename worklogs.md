@@ -30,9 +30,9 @@
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
   - [X] check the .Key file: schematic@formalin fixation
-  
+
 ------
-**sscontest** 
+**sscontest**
 
   - [x] zinbwave do ssgsea for jason zinbwave c2h  
 
@@ -53,10 +53,9 @@
 ~~- 2020.1.15~~  
   ~~- 007 pmh not available~~
 
-------
-
 ##### IBP Mac crash logs
 
 1. 2020-01-12 18:20, chrome crashed then the OS didn't respond
 2. 2020-01-17 13:06, chrome crashed, tried restarting chrome but stucked at the pwd priviledging step. Then the OS didn't respond.  
 3. 
+
