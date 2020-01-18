@@ -2,7 +2,8 @@
 
 **general**
 
-- [ ] summarize scripts: do infercnv and plot using complexheatmap
+- [ ] summarize scripts: plot cnv using complexheatmap R3.4 (input "nferCNV.obs.txt" from R3.6 in .sif), 
+  - [ ] or try Infercnv&complexheatmap in singluarity container?  
 - [x] add gather scripts (ref: zhaoproject folder)
 
 ------
@@ -30,9 +31,9 @@
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
   - [X] check the .Key file: schematic@formalin fixation
-  
+
 ------
-**sscontest** 
+**sscontest**
 
   - [x] zinbwave do ssgsea for jason zinbwave c2h  
 
