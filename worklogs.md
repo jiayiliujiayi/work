@@ -54,8 +54,6 @@
 ~~- 2020.1.15~~  
   ~~- 007 pmh not available~~
 
-------
-
 ##### IBP Mac crash logs
 
 1. 2020-01-12 18:20, chrome crashed then the OS didn't respond
