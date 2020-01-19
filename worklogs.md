@@ -12,7 +12,7 @@
 - BRST004  
   ……  
   - [ ] Pareto  
-  - [ ] stat test on RTK among cancer clusters  
+  - [ ] stat test on RTK among cancer clusters  (consensus clustering on jeff's way)
   - [ ] DNA analysis (WES on the way)
 - BRST006  
   ……  
@@ -22,7 +22,8 @@
   ……  
   - [ ] wait for xuan's infercnv regression results to differ cancer from normal  
   - [ ] try tsne on the high quality cells, labeled by SampleIDs or infercnv hclusts. 
-  - [ ] check PTPRC levels in the annotated "cancer"s
+  - [x] check PTPRC levels in the annotated "cancer"s &rarr; ~5% of which are PTPRC+
+  - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
   - [ ] plot cnv using complexheatmap  
   - [ ] DNA analysis (check if WES)
 - wrapups  
@@ -39,6 +40,12 @@
   - [x] zinbwave do ssgsea for jason zinbwave c2h  
 
 ------
+**zhaoproject**
+
+velo:/zhaoproject/jing_filtergenes
+
+------
+
 **misc**  
 
   - [ ] docker on unicron
