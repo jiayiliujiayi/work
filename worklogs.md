@@ -11,25 +11,31 @@
 
 - BRST004  
   ……  
-  - [ ] Pareto  
-  - [ ] stat test on RTK among cancer clusters  (consensus clustering on jeff's way)
-  - [ ] DNA analysis (WES on the way)
+  - cancer phenotypes
+    - [ ] Pareto  
+    - [ ] stat test on RTK among cancer clusters  (consensus clustering on jeff's way)
+    - [ ] DNA analysis (WES on the way)
 - BRST006  
   ……  
-  - [ ] Pareto  
-  - [ ] DNA analysis (WES on the way)
+  - cancer phenotypes
+    - [ ] Pareto  
+    - [ ] DNA analysis (WES on the way)
 - BRST007  
   ……  
-  - [ ] wait for xuan's infercnv regression results to differ cancer from normal  
-  - [ ] try tsne on the high quality cells, labeled by SampleIDs or infercnv hclusts. 
-  - [x] check PTPRC levels in the annotated "cancer"s &rarr; ~5% of which are PTPRC+
-  - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
-  - [ ] plot cnv using complexheatmap  
-  - [ ] DNA analysis (check if WES)
+  - seperate cancer from normal
+    - [ ] wait for xuan's infercnv regression results to differ cancer from normal  
+    - [ ] try tsne on the high quality cells, labeled by SampleIDs or infercnv hclusts. 
+    - [x] locate filtered umap &rarr; not found... 
+    - [ ] redo umap on the "filtered" ones
+    - [x] check PTPRC levels in the annotated "cancer"s &rarr; ~5% of which are PTPRC+
+    - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
+    - [ ] plot cnv using complexheatmap  
+  - cancer genotypes
+    - [ ] DNA analysis (check if WES)
 - wrapups  
   - [x] patient PMH  
-  - [x] 007 PMH not available
-  - [x] update 007 PMH
+    - [x] 007 PMH not available
+    - [x] update 007 PMH
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
   - [X] check the .Key file: schematic@formalin fixation
