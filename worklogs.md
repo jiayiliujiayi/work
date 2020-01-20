@@ -24,17 +24,32 @@
   ……  
   - seperate cancer from normal
     - [ ] wait for xuan's infercnv regression results to differ cancer from normal  
+    
     - [x] do another session of infercnv "chr_exclude = NULL, ref = random macro & fibro" (running@uni:tmux)
+    
+      _notes@0120: forgot clearing caches, so reran it._
+    
     - [x] do another session of infercnv "chr_exclude = NULL" (running@uni: tmux)
+      
+      _notes@0120: forgot clearing caches, so reran it._
+      
       - [ ] update the hm with "chrX" shown 
+      
     - [x] try tsne on the high quality cells (running@velo:tmux)
+      
       - [ ] plot labeled by SampleIDs or infercnv hclusts. 
+      
     - [x] locate filtered umap &rarr; not found... 
+    
     - [x] redo umap on the "filtered" ones
+    
     - [x] check PTPRC levels in the annotated "cancer"s &rarr; ~5% of which are PTPRC+
+    
     - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
+    
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
   - cancer genotypes
+    
     - [ ] DNA analysis (check if WES)
 - wrapups  
   - [x] patient PMH  
@@ -42,7 +57,9 @@
     - [x] update 007 PMH
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
-  - [X] check the .Key file: schematic@formalin fixation
+  - [x] check the .Key file: schematic@formalin fixation
+  - [ ] mets phenotypes of pat1 and 2
+  - [ ] genotypes (50X?)
 
 ------
 **sscontest**
@@ -52,7 +69,7 @@
 ------
 **zhaoproject**
 
-velo:/zhaoproject/jing_filtergenes
+velo:/zhaoproject/jing_filter.....
 
 ------
 
