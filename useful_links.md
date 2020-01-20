@@ -2,10 +2,16 @@
 - [Hex Colors, Color Picker](https://encycolorpedia.com/)  
 - [NIPPON COLORS](https://nipponcolors.com/)  
 
-## for codes  
+## codes  
 - [codepen](https://codepen.io)
 
-## for graphics  
+## graphics  
 - [ASCII Art Archive](https://www.asciiart.eu)  
 - [ASCII Art Generator](https://asciiart.club)  
 - [Christopher Johnson's ASCII Art Collection](https://asciiart.website/index.php)  
+- [nice eg of plotly piecharts](https://stackoverflow.com/questions/44436214/ggplot-pie-chart-labeling/44436446?stw=2#44436446)
+
+## misc
+
+- [Oh Shit, Git!?!](https://ohshitgit.com/)
+
