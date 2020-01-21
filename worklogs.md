@@ -22,10 +22,11 @@
     - [ ] DNA analysis (WES on the way)
 - BRST007  
   ……  
+  - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet) 
   - seperate cancer from normal
-    - [ ] wait for xuan's infercnv regression results to differ cancer from normal  
-    - [x] do another session of infercnv "chr_exclude = NULL, ref = random macro & fibro" (running@uni:tmux)
-    - [x] do another session of infercnv "chr_exclude = NULL" (running@uni: tmux)
+    - [ ] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says it'll be done tmr_  
+    - [x] do another session of infercnv "chr_exclude = NULL, ref = random macro & fibro" (running@uni:tmux) _notes: forgot to clear caches:(( rerunning it now_
+    - [x] do another session of infercnv "chr_exclude = NULL" (running@uni: tmux) _notes: forgot to clear caches:(( rerunning it now_
       - [ ] update the hm with "chrX" shown 
     - [x] try tsne on the high quality cells (running@velo:tmux)
       - [ ] plot labeled by SampleIDs or infercnv hclusts. 
@@ -52,16 +53,18 @@
 ------
 **zhaoproject**
 
-velo:/zhaoproject/jing_filtergenes
+velo:/zhaoproject/jing_filter.....
 
 ------
 
 **misc**  
 
-  - [ ] docker on unicron
+  - [ ] docker on unicron _notes: done with r-base_
+      - [ ] run docker inside tmux
   - [ ] jupyter notebook via docker,  [ref](https://www.dataquest.io/blog/docker-data-science/) (might be helpful)
   - [x] singler in singluarity r on unicron: not working -- rjags has non zero exit status
   - [x] send jeff dir to the pat1 cancer counts
+  - [x] send jeff the dropbox link to the figures & tables
 
 **scripts availability**
 
@@ -75,6 +78,10 @@ velo:/zhaoproject/jing_filtergenes
 
 ~~- 2020.1.15~~  
   ~~- 007 pmh not available~~
+
+- 2020-01-21
+  - wrap up clustering
+  - besty-tsne kinda slow? 
 
 ##### IBP Mac crash logs
 
