@@ -11,24 +11,33 @@
 
 - BRST004  
   ……  
+  - normal
+    - immune
+      - [ ] prepare immune counts
+      - [ ] ask small sister to run ImmClass
   - cancer phenotypes
-    - [ ] Pareto  
+    - [x] Pareto  
     - [ ] stat test on RTK among cancer clusters  (consensus clustering on jeff's way)
     - [ ] DNA analysis (WES on the way)
 - BRST006  
   ……  
+  - normal
+    - immune
+      - [ ] prepare immune counts
+      - [ ] ask small sister to run ImmClass
   - cancer phenotypes
-    - [ ] Pareto  
+    - [x] Pareto  
     - [ ] DNA analysis (WES on the way)
 - BRST007  
   ……  
   - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet) 
   - seperate cancer from normal
-    - [ ] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says it'll be done tmr_  
+    - [ ] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_  
     - [x] do another session of infercnv "chr_exclude = NULL, ref = random macro & fibro" (running@uni:tmux) _notes: forgot to clear caches:(( rerunning it now_
     - [x] do another session of infercnv "chr_exclude = NULL" (running@uni: tmux) _notes: forgot to clear caches:(( rerunning it now_
       - [ ] update the hm with "chrX" shown 
-    - [x] try tsne on the high quality cells (running@velo:tmux)
+    - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h) 
+      - [ ] send jeff the network.pdf
       - [ ] plot labeled by SampleIDs or infercnv hclusts. 
     - [x] locate filtered umap &rarr; not found... 
     - [x] redo umap on the "filtered" ones
@@ -37,6 +46,9 @@
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
   - cancer genotypes
     - [ ] DNA analysis (check if WES)
+- combined analysis
+  - [ ] check if batch effects in es.ss between 004 and 6
+  - [ ] if not zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
 - wrapups  
   - [x] patient PMH  
     - [x] 007 PMH not available
@@ -49,11 +61,18 @@
 **sscontest**
 
   - [x] zinbwave do ssgsea for jason zinbwave c2h  
+  - [ ] ask small sister abt es.ss after zinbwave
 
 ------
 **zhaoproject**
 
 velo:/zhaoproject/jing_filter.....
+
+------
+
+chiproject
+
+- [ ] wrap_up: splict raw counts by the metadata (sampling in my dropbox) 
 
 ------
 
@@ -65,6 +84,7 @@ velo:/zhaoproject/jing_filter.....
   - [x] singler in singluarity r on unicron: not working -- rjags has non zero exit status
   - [x] send jeff dir to the pat1 cancer counts
   - [x] send jeff the dropbox link to the figures & tables
+  - [ ] es.ss de on pareto arcs
 
 **scripts availability**
 
@@ -76,15 +96,22 @@ velo:/zhaoproject/jing_filter.....
 
 #### meeting
 
-~~- 2020.1.15~~  
-  ~~- 007 pmh not available~~
+- ~~2020.1.15~~  
+  - ~~007 pmh not available~~
 
-- 2020-01-21
-  - wrap up clustering
-  - besty-tsne kinda slow? 
+- ~~2020-01-21~~
+  - ~~wrap up clustering~~
+  - ~~besty-tsne kinda slow?~~
 
 ##### IBP Mac crash logs
 
 1. 2020-01-12 18:20, chrome crashed then the OS didn't respond
 2. 2020-01-17 13:06, chrome crashed, tried restarting chrome but stucked at the pwd priviledging step. Then the OS didn't respond.  
-3. 
+
+
+
+
+
+Non-lab
+
+- [ ] kaming methods & scripts
