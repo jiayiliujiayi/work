@@ -37,7 +37,7 @@
     - [x] do another session of infercnv "chr_exclude = NULL" (running@uni: tmux) _notes: forgot to clear caches:(( rerunning it now_
       - [ ] update the hm with "chrX" shown 
     - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h) 
-      - [ ] send jeff the network.pdf
+      - [x] send jeff the network.pdf
       - [ ] plot labeled by SampleIDs or infercnv hclusts. 
     - [x] locate filtered umap &rarr; not found... 
     - [x] redo umap on the "filtered" ones
@@ -47,8 +47,9 @@
   - cancer genotypes
     - [ ] DNA analysis (check if WES)
 - combined analysis
-  - [ ] check if batch effects in es.ss between 004 and 6
-  - [ ] if not zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
+  - [x] check if batch effects in es.ss between 004 and 6
+    - [x] yes
+  - [ ] if yes zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
 - wrapups  
   - [x] patient PMH  
     - [x] 007 PMH not available
@@ -72,7 +73,7 @@ velo:/zhaoproject/jing_filter.....
 
 chiproject
 
-- [ ] wrap_up: splict raw counts by the metadata (sampling in my dropbox) 
+- [x] wrap_up: splict raw counts by the metadata (sampling in my dropbox) 
 
 ------
 
