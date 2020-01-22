@@ -49,6 +49,7 @@
 - combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
     - [x] yes
+  - [ ] email jeff: raw counts umap, combat umap, cca umap
   - [ ] if yes zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
 - wrapups  
   - [x] patient PMH  
@@ -93,7 +94,11 @@ chiproject
 - cnv-hm with multiple annots: @velo:~/softlinktodat/***062/6.0/.ipynb
 - call dendro: ref--cnv-hm
 
+------
 
+**error reports**
+
+- [ ] betsy tsne errors
 
 #### meeting
 
