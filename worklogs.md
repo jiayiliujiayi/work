@@ -13,7 +13,7 @@
   ……  
   - normal
     - immune
-      - [ ] prepare immune counts
+      - [x] prepare immune counts
       - [ ] ask small sister to run ImmClass
   - cancer phenotypes
     - [x] Pareto  
@@ -23,20 +23,20 @@
   ……  
   - normal
     - immune
-      - [ ] prepare immune counts
+      - [x] prepare immune counts
       - [ ] ask small sister to run ImmClass
   - cancer phenotypes
     - [x] Pareto  
     - [ ] DNA analysis (WES on the way)
 - BRST007  
   ……  
-  - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet) 
+  - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet)
   - seperate cancer from normal
     - [ ] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_  
     - [x] do another session of infercnv "chr_exclude = NULL, ref = random macro & fibro" (running@uni:tmux) _notes: forgot to clear caches:(( rerunning it now_
     - [x] do another session of infercnv "chr_exclude = NULL" (running@uni: tmux) _notes: forgot to clear caches:(( rerunning it now_
       - [ ] update the hm with "chrX" shown 
-    - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h) 
+    - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h; talked abt this with jeff, updated some files and now running in another session in another tmux)
       - [x] send jeff the network.pdf
       - [ ] plot labeled by SampleIDs or infercnv hclusts. 
     - [x] locate filtered umap &rarr; not found... 
