@@ -14,7 +14,7 @@
   - normal
     - immune
       - [x] prepare immune counts
-      - [ ] ask small sister to run ImmClass
+      - [x] ~~ask small sister to run ImmClass~~ used singleR instead because its annotations matches up better with the immune marker levels.  
   - cancer phenotypes
     - [x] Pareto  
     - [ ] stat test on RTK among cancer clusters  (consensus clustering on jeff's way)
@@ -24,7 +24,7 @@
   - normal
     - immune
       - [x] prepare immune counts
-      - [ ] ask small sister to run ImmClass
+      - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
   - cancer phenotypes
     - [x] Pareto  
     - [ ] DNA analysis (WES on the way)
@@ -32,12 +32,13 @@
   ……  
   - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet)
   - seperate cancer from normal
-    - [ ] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_  
+    - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, will try another session with epithelial cells (annotated by SingleR) included, then discuss with jeff.
     - [x] do another session of infercnv "chr_exclude = NULL, ref = random macro & fibro" (running@uni:tmux) _notes: forgot to clear caches:(( rerunning it now_
     - [x] do another session of infercnv "chr_exclude = NULL" (running@uni: tmux) _notes: forgot to clear caches:(( rerunning it now_
       - [ ] update the hm with "chrX" shown 
     - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h; talked abt this with jeff, updated some files and now running in another session in another tmux)
       - [x] send jeff the network.pdf
+      - [x] error from the  new tsne module reported
       - [ ] plot labeled by SampleIDs or infercnv hclusts. 
     - [x] locate filtered umap &rarr; not found... 
     - [x] redo umap on the "filtered" ones
@@ -49,8 +50,12 @@
 - combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
     - [x] yes
-  - [ ] email jeff: raw counts umap, combat umap, cca umap
-  - [ ] if yes zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
+  - [x] email jeff: raw counts umap, combat umap, cca umap
+    - [x] run a umap on the concatenated raw counts
+  - [ ] CCA:  
+    - [ ] CCA on the h.es.ss, then cluster
+    - [ ] CCA on counts then h.es.ss then cluster
+  - [ ] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
 - wrapups  
   - [x] patient PMH  
     - [x] 007 PMH not available
@@ -63,7 +68,7 @@
 **sscontest**
 
   - [x] zinbwave do ssgsea for jason zinbwave c2h  
-  - [ ] ask small sister abt es.ss after zinbwave
+  - [x] ask small sister abt es.ss after zinbwave
 
 ------
 **zhaoproject**
