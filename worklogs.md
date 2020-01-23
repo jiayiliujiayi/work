@@ -32,16 +32,19 @@
   ……  
   - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet)
   - seperate cancer from normal
-    - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, will try another session with epithelial cells (annotated by SingleR) included, then discuss with jeff.
-    - [x] do another session of infercnv "chr_exclude = NULL, ref = random macro & fibro" (running@uni:tmux) _notes: forgot to clear caches:(( rerunning it now_
-    - [x] do another session of infercnv "chr_exclude = NULL" (running@uni: tmux) _notes: forgot to clear caches:(( rerunning it now_
-      - [ ] update the hm with "chrX" shown 
+    - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then 
+      - [ ] discuss with jeff.
+    - [ ] infercnv sessions: "chr_exclude = NULL" to include ChrX
+      - [x] "ref = random macro & fibro" (running@uni:tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
+      - [x] "ref = fibroblasts" (running@uni: tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
+        - [x] finish the session
+        - [ ] ~~update the hm with "chrX" shown~~ wait for small sister's results then update the hm
     - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h; talked abt this with jeff, updated some files and now running in another session in another tmux)
       - [x] send jeff the network.pdf
       - [x] error from the  new tsne module reported
-      - [ ] plot labeled by SampleIDs or infercnv hclusts. 
+      - [x] plot labeled by SampleIDs or infercnv hclusts. _notes: similar to the umap clusters: macrophages too close to epithelials_
     - [x] locate filtered umap &rarr; not found... 
-    - [x] redo umap on the "filtered" ones
+      - [x] redo umap on the "filtered" ones
     - [x] check PTPRC levels in the annotated "cancer"s &rarr; ~5% of which are PTPRC+
     - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
@@ -50,6 +53,8 @@
 - combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
     - [x] yes
+  - [ ] check QC for BRST004 or BRST006: nGenes, nReads, %mitochondria
+    - [ ] email jeff the results
   - [x] email jeff: raw counts umap, combat umap, cca umap
     - [x] run a umap on the concatenated raw counts
   - [ ] CCA:  
@@ -103,7 +108,7 @@ chiproject
 
 **error reports**
 
-- [ ] betsy tsne errors
+- [x] betsy tsne errors _notes: more efficient module, e.g., 21,000 genes x 11,000 cells usually took > 48h to finish.  After the update it takes 56min :))_
 
 #### meeting
 
