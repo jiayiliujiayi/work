@@ -57,9 +57,11 @@
     - [ ] email jeff the results
   - [x] email jeff: raw counts umap, combat umap, cca umap
     - [x] run a umap on the concatenated raw counts
-  - [ ] CCA:  
-    - [ ] CCA on the h.es.ss, then cluster
-    - [ ] CCA on counts then h.es.ss then cluster
+  - [ ] wrap up corrections
+    - [x] CCA:  
+      - [x] CCA on the h.es.ss, then cluster
+      - [x] CCA on counts then h.es.ss then cluster
+    - [ ] ref to Tran et al 2020 paper to correct
   - [ ] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
 - wrapups  
   - [x] patient PMH  
@@ -67,7 +69,8 @@
     - [x] update 007 PMH
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
-  - [X] check the .Key file: schematic@formalin fixation
+  - [x] check the .Key file: schematic@formalin fixation
+  - [ ] **address jeff's comments**
 
 ------
 **sscontest**
