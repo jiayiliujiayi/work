@@ -38,7 +38,8 @@
       - [x] "ref = random macro & fibro" (running@uni:tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
       - [x] "ref = fibroblasts" (running@uni: tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
         - [x] finish the session
-        - [ ] ~~update the hm with "chrX" shown~~ wait for small sister's results then update the hm
+        - [x] ~~update the hm with "chrX" shown~~ wait for small sister's results then update the hm
+      - [ ] send jeff: small sister's data: annotated by 1. dendrogram from the original plot, 2. singler annotations, and 3. cancer+singler annotations
     - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h; talked abt this with jeff, updated some files and now running in another session in another tmux)
       - [x] send jeff the network.pdf
       - [x] error from the  new tsne module reported
@@ -57,9 +58,15 @@
     - [ ] email jeff the results
   - [x] email jeff: raw counts umap, combat umap, cca umap
     - [x] run a umap on the concatenated raw counts
-  - [ ] CCA:  
-    - [ ] CCA on the h.es.ss, then cluster
-    - [ ] CCA on counts then h.es.ss then cluster
+  - [ ] wrap up corrections
+    - [x] CCA:  
+      - [x] CCA on the h.es.ss, then cluster
+      - [x] CCA on counts then h.es.ss then cluster
+    - [x] ref to Tran et al 2020 paper to correct _notes: done, not as good as we thought.  
+      - [ ] try harmony on two datasets: one with a small number of cells and the other large. ~1:5. 
+    - [ ] talked to jeff: 
+      - [ ] send CCA plots on counts
+      - [ ] send UMAP plots on counts respectively
   - [ ] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
 - wrapups  
   - [x] patient PMH  
@@ -67,7 +74,8 @@
     - [x] update 007 PMH
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
-  - [X] check the .Key file: schematic@formalin fixation
+  - [x] check the .Key file: schematic@formalin fixation
+  - [ ] **address jeff's comments**
 
 ------
 **sscontest**
@@ -123,6 +131,7 @@ chiproject
 
 1. 2020-01-12 18:20, chrome crashed then the OS didn't respond
 2. 2020-01-17 13:06, chrome crashed, tried restarting chrome but stucked at the pwd priviledging step. Then the OS didn't respond.  
+3. 2020-01-24 18:35, Message didn't respond; pluged in the iPhone then Photos popped out. Then the OS didn't respond.  
 
 
 
