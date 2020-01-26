@@ -30,7 +30,7 @@
     - [ ] DNA analysis (WES on the way)
 - BRST007  
   ……  
-  - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet)
+  - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
   - seperate cancer from normal
     - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then 
       - [ ] discuss with jeff.
@@ -63,7 +63,9 @@
       - [x] CCA on the h.es.ss, then cluster
       - [x] CCA on counts then h.es.ss then cluster
     - [x] ref to Tran et al 2020 paper to correct _notes: done, not as good as we thought.  
-      - [ ] try harmony on two datasets: one with a small number of cells and the other large. ~1:5. 
+      - [ ] try harmony 
+        - [ ] on two datasets: one with a small number of cells and the other large. ~1:5. 
+        - [ ] on two datasets: datapoints of two groups that are far from each other on the PCA.  
     - [ ] talked to jeff: 
       - [ ] send CCA plots on counts
       - [ ] send UMAP plots on counts respectively
@@ -109,7 +111,7 @@ chiproject
 **scripts availability**
 
 - infercnv: @uni: ~/***062inf\*cnv/'infercnv-scripts', call: data.table::fread
-- cnv-hm with multiple annots: @velo:~/softlinktodat/***062/6.0/.ipynb
+- cnv-hm with multiple annots: @velo:~/softlinktodat,jliu/***062/6.0/.ipynb
 - call dendro: ref--cnv-hm
 
 ------
