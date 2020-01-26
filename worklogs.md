@@ -111,7 +111,7 @@ chiproject
 **scripts availability**
 
 - infercnv: @uni: ~/***062inf\*cnv/'infercnv-scripts', call: data.table::fread
-- cnv-hm with multiple annots: @velo:~/softlinktodat/***062/6.0/.ipynb
+- cnv-hm with multiple annots: @velo:~/softlinktodat,jliu/***062/6.0/.ipynb
 - call dendro: ref--cnv-hm
 
 ------
