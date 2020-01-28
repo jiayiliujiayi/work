@@ -18,7 +18,7 @@
   - cancer phenotypes
     - [x] Pareto  
     - [ ] stat test on RTK among cancer clusters  (consensus clustering on jeff's way)
-    - [ ] DNA analysis (WES on the way)
+    - [ ] DNA analysis
 - BRST006  
   ……  
   - normal
@@ -27,7 +27,7 @@
       - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
   - cancer phenotypes
     - [x] Pareto  
-    - [ ] DNA analysis (WES on the way)
+    - [ ] DNA analysis
 - BRST007  
   ……  
   - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
@@ -50,7 +50,7 @@
     - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
   - cancer genotypes
-    - [ ] DNA analysis (check if WES)
+    - [ ] DNA analysis
 - combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
     - [x] yes
