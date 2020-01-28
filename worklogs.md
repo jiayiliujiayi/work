@@ -34,12 +34,12 @@
   - seperate cancer from normal
     - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then 
       - [ ] discuss with jeff.
-    - [ ] infercnv sessions: "chr_exclude = NULL" to include ChrX
+    - [x] infercnv sessions: "chr_exclude = NULL" to include ChrX
       - [x] "ref = random macro & fibro" (running@uni:tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
       - [x] "ref = fibroblasts" (running@uni: tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
         - [x] finish the session
         - [x] ~~update the hm with "chrX" shown~~ wait for small sister's results then update the hm
-      - [ ] send jeff: small sister's data: annotated by 1. dendrogram from the original plot, 2. singler annotations, and 3. cancer+singler annotations
+      - [x] send jeff: small sister's data: annotated by 1. dendrogram from the original plot, 2. singler annotations, and 3. cancer+singler annotations
     - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h; talked abt this with jeff, updated some files and now running in another session in another tmux)
       - [x] send jeff the network.pdf
       - [x] error from the  new tsne module reported
@@ -66,9 +66,9 @@
       - [ ] try harmony 
         - [ ] on two datasets: one with a small number of cells and the other large. ~1:5. 
         - [ ] on two datasets: datapoints of two groups that are far from each other on the PCA.  
-    - [ ] talked to jeff: 
-      - [ ] send CCA plots on counts
-      - [ ] send UMAP plots on counts respectively
+    - [x] talked to jeff: 
+      - [x] send CCA plots on counts
+      - [x] send UMAP plots on counts respectively
   - [ ] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
 - wrapups  
   - [x] patient PMH  
@@ -124,10 +124,10 @@ chiproject
 
 - ~~2020.1.15~~  
   - ~~007 pmh not available~~
-
 - ~~2020-01-21~~
   - ~~wrap up clustering~~
   - ~~besty-tsne kinda slow?~~
+  
 
 ##### IBP Mac crash logs
 
