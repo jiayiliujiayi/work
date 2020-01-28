@@ -84,6 +84,7 @@
 
   - [x] zinbwave do ssgsea for jason zinbwave c2h  
   - [x] ask small sister abt es.ss after zinbwave
+  - [ ] test zinbwave@betsy
 
 ------
 **zhaoproject**
