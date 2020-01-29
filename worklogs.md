@@ -17,9 +17,9 @@
       - [x] ~~ask small sister to run ImmClass~~ used singleR instead because its annotations matches up better with the immune marker levels.  
   - cancer phenotypes
     - [x] Pareto  
-    - [ ] stat test on RTK among cancer clusters  (consensus clustering on jeff's way)
+    - [ ] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
   - cancer genotypes
-    - [ ] pyclone
+    - [ ] :red_circle:pyclone
 - BRST006  
   ……  
   - normal
@@ -29,13 +29,13 @@
   - cancer phenotypes
     - [x] Pareto
   - cancer genotypes 
-    - [ ] pyclone
+    - [ ] :red_circle:pyclone
 - BRST007  
   ……  
-  - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
+  - rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
   - seperate cancer from normal
     - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then:_ 
-      - [ ] discuss with jeff.
+      - [x] discuss with jeff.  _notes: agreed on "the hclust 1 & 3 as cancers"_
     - [x] infercnv sessions: "chr_exclude = NULL" to include ChrX
       - [x] "ref = random macro & fibro" (running@uni:tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
       - [x] "ref = fibroblasts" (running@uni: tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
@@ -52,7 +52,7 @@
     - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
   - cancer genotypes
-    - [ ] DNA analysis, pyclone
+    - [ ] :red_circle:pyclone
 - combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
     - [x] yes
@@ -73,9 +73,9 @@
       - [x] send CCA plots on counts
       - [x] send UMAP plots on counts respectively
   - [ ] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
-    - [ ] zinbwave correction
+    - [ ] zinbwave corrections
     - [ ] compare before and after distribution 
-    - [ ] if corrected, then umap on the corrected one
+    - [ ] if satisfiedly corrected, then umap on the corrected one
 - wrapups  
   - [x] patient PMH  
     - [x] 007 PMH not available
@@ -114,6 +114,7 @@ chiproject
   - [x] send jeff dir to the pat1 cancer counts
   - [x] send jeff the dropbox link to the figures & tables
   - [ ] es.ss de on pareto arcs
+  - [ ] update 02D_scRNAseq_CNV_subclone@u54
 
 **scripts availability**
 
