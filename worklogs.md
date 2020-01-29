@@ -18,7 +18,8 @@
   - cancer phenotypes
     - [x] Pareto  
     - [ ] stat test on RTK among cancer clusters  (consensus clustering on jeff's way)
-    - [ ] DNA analysis (WES on the way)
+  - cancer genotypes
+    - [ ] pyclone
 - BRST006  
   ……  
   - normal
@@ -26,20 +27,21 @@
       - [x] prepare immune counts
       - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
   - cancer phenotypes
-    - [x] Pareto  
-    - [ ] DNA analysis (WES on the way)
+    - [x] Pareto
+  - cancer genotypes 
+    - [ ] pyclone
 - BRST007  
   ……  
   - rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
   - seperate cancer from normal
-    - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then 
+    - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then:_ 
       - [ ] discuss with jeff.
-    - [ ] infercnv sessions: "chr_exclude = NULL" to include ChrX
+    - [x] infercnv sessions: "chr_exclude = NULL" to include ChrX
       - [x] "ref = random macro & fibro" (running@uni:tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
       - [x] "ref = fibroblasts" (running@uni: tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
         - [x] finish the session
         - [x] ~~update the hm with "chrX" shown~~ wait for small sister's results then update the hm
-      - [ ] send jeff: small sister's data: annotated by 1. dendrogram from the original plot, 2. singler annotations, and 3. cancer+singler annotations
+      - [x] send jeff: small sister's data: annotated by 1. dendrogram from the original plot, 2. singler annotations, and 3. cancer+singler annotations
     - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h; talked abt this with jeff, updated some files and now running in another session in another tmux)
       - [x] send jeff the network.pdf
       - [x] error from the  new tsne module reported
@@ -50,26 +52,30 @@
     - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
   - cancer genotypes
-    - [ ] DNA analysis (check if WES)
+    - [ ] DNA analysis, pyclone
 - combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
     - [x] yes
-  - [ ] check QC for BRST004 or BRST006: nGenes, nReads, %mitochondria
-    - [ ] email jeff the results
+  - [x] check QC for BRST004 or BRST006: nGenes, nReads, %mitochondria
+    - [x] email jeff the results
   - [x] email jeff: raw counts umap, combat umap, cca umap
     - [x] run a umap on the concatenated raw counts
   - [ ] wrap up corrections
     - [x] CCA:  
       - [x] CCA on the h.es.ss, then cluster
       - [x] CCA on counts then h.es.ss then cluster
-    - [x] ref to Tran et al 2020 paper to correct _notes: done, not as good as we thought.  
-      - [ ] try harmony 
-        - [ ] on two datasets: one with a small number of cells and the other large. ~1:5. 
-        - [ ] on two datasets: datapoints of two groups that are far from each other on the PCA.  
-    - [ ] talked to jeff: 
-      - [ ] send CCA plots on counts
-      - [ ] send UMAP plots on counts respectively
+    - [x] ref to Tran et al 2020 paper to correct _notes: tried, not as good as we thought._  
+      - [x] try harmony: _velo:~/legacy/combinexxxx/cancer/harmony_demo_
+            - [x] on two datasets: one with a small number of cells and the other large. ~1:5. 
+            - [x] on two datasets: datapoints of two groups that are far from each other on the PCA.  
+        - [x] on two datasets: one larger, one small, two far.  
+    - [x] talked to jeff: 
+      - [x] send CCA plots on counts
+      - [x] send UMAP plots on counts respectively
   - [ ] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
+    - [ ] zinbwave correction
+    - [ ] compare before and after distribution 
+    - [ ] if corrected, then umap on the corrected one
 - wrapups  
   - [x] patient PMH  
     - [x] 007 PMH not available
@@ -77,13 +83,14 @@
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
   - [x] check the .Key file: schematic@formalin fixation
-  - [ ] **address jeff's comments**
+  - [ ] address jeff's comments no hurry
 
 ------
 **sscontest**
 
   - [x] zinbwave do ssgsea for jason zinbwave c2h  
   - [x] ask small sister abt es.ss after zinbwave
+  - [x] test zinbwave@betsy
 
 ------
 **zhaoproject**
@@ -124,10 +131,14 @@ chiproject
 
 - ~~2020.1.15~~  
   - ~~007 pmh not available~~
-
 - ~~2020-01-21~~
   - ~~wrap up clustering~~
   - ~~besty-tsne kinda slow?~~
+  
+- 2020-01-29
+  - ~~CCA on counts (emailed), respective UMAP~~
+  - ~~007 cnv reg by small sis~~
+  - ~~try harmony~~
 
 ##### IBP Mac crash logs
 
