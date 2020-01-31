@@ -19,7 +19,7 @@
     - [x] Pareto  
     - [ ] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
   - cancer genotypes
-    - [ ] :red_circle:pyclone
+    - [ ] :red_circle:pyclone _running_
 - BRST006  
   ……  
   - normal
@@ -29,7 +29,7 @@
   - cancer phenotypes
     - [x] Pareto
   - cancer genotypes 
-    - [ ] :red_circle:pyclone
+    - [ ] :red_circle:pyclone _running_
 - BRST007  
   ……  
   - rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
@@ -52,7 +52,7 @@
     - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
   - cancer genotypes
-    - [ ] :red_circle:pyclone
+    - [ ] :red_circle:pyclone _running_
 - combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
     - [x] yes
@@ -68,13 +68,14 @@
       - [x] try harmony: _velo:~/legacy/combinexxxx/cancer/harmony_demo_
             - [x] on two datasets: one with a small number of cells and the other large. ~1:5. 
             - [x] on two datasets: datapoints of two groups that are far from each other on the PCA.  
-        - [x] on two datasets: one larger, one small, two far.  
+            - [x] on two datasets: one larger, one small, two far.  
     - [x] talked to jeff: 
       - [x] send CCA plots on counts
       - [x] send UMAP plots on counts respectively
+    - [ ] try harmony: on all types of cells
   - [ ] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
-    - [ ] zinbwave corrections
-    - [ ] compare before and after distribution 
+    - [x] zinbwave corrections
+    - [x] compare before and after distribution 
     - [ ] if satisfiedly corrected, then umap on the corrected one
 - wrapups  
   - [x] patient PMH  
@@ -115,6 +116,7 @@ chiproject
   - [x] send jeff the dropbox link to the figures & tables
   - [ ] es.ss de on pareto arcs
   - [ ] update 02D_scRNAseq_CNV_subclone@u54
+  - [x] ut training
 
 **scripts availability**
 
@@ -153,4 +155,6 @@ chiproject
 
 Non-lab
 
-- [ ] kaming methods & scripts
+- [x] kaming methods & scripts
+  - [x] reproduce
+  - [x] manuscripts
