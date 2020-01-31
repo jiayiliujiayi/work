@@ -68,13 +68,14 @@
       - [x] try harmony: _velo:~/legacy/combinexxxx/cancer/harmony_demo_
             - [x] on two datasets: one with a small number of cells and the other large. ~1:5. 
             - [x] on two datasets: datapoints of two groups that are far from each other on the PCA.  
-        - [x] on two datasets: one larger, one small, two far.  
+            - [x] on two datasets: one larger, one small, two far.  
     - [x] talked to jeff: 
       - [x] send CCA plots on counts
       - [x] send UMAP plots on counts respectively
+    - [ ] try harmony: on all types of cells
   - [ ] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
-    - [ ] compare before and after distribution 
+    - [x] compare before and after distribution 
     - [ ] if satisfiedly corrected, then umap on the corrected one
 - wrapups  
   - [x] patient PMH  
@@ -115,7 +116,7 @@ chiproject
   - [x] send jeff the dropbox link to the figures & tables
   - [ ] es.ss de on pareto arcs
   - [ ] update 02D_scRNAseq_CNV_subclone@u54
-  - [ ] ut training
+  - [x] ut training
 
 **scripts availability**
 
@@ -154,4 +155,6 @@ chiproject
 
 Non-lab
 
-- [ ] kaming methods & scripts
+- [x] kaming methods & scripts
+  - [x] reproduce
+  - [x] manuscripts
