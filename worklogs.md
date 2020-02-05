@@ -74,7 +74,7 @@
       - [x] send UMAP plots on counts respectively
     - [ ] try harmony
       - [ ] walkthrough
-      - [ ] on all types of cells
+      - [ ] on all types of cells (immune+cancer?)
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
     - [x] compare before and after distribution 
@@ -100,7 +100,7 @@
 
 velo:/zhaoproject/jing_filter.....
 
-- [ ] draft method
+- [x] draft method
 
 ------
 
@@ -141,11 +141,14 @@ chiproject
 - ~~2020-01-21~~
   - ~~wrap up clustering~~
   - ~~besty-tsne kinda slow?~~
-  
 - 2020-01-29
   - ~~CCA on counts (emailed), respective UMAP~~
   - ~~007 cnv reg by small sis~~
   - ~~try harmony~~
+- 2020-02-05
+  - ~~WES copy number~~
+  - ~~pyclone results~~
+  - ~~WES higher vs lower coverage compare~~
 
 ##### IBP Mac crash logs
 
