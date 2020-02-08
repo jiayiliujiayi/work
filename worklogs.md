@@ -73,8 +73,10 @@
       - [x] send CCA plots on counts
       - [x] send UMAP plots on counts respectively
     - [ ] try harmony
-      - [ ] walkthrough
-      - [ ] on all types of cells (immune+cancer?)
+      - [ ] walkthrough (functions "cosine_" not installed)
+      - [ ] github issue
+      - [ ] jeff trying subsets
+      - [x] on all types of cells (immune+cancer?)
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
     - [x] compare before and after distribution 
@@ -87,6 +89,8 @@
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
   - [x] check the .Key file: schematic@formalin fixation
   - [ ] address jeff's comments no hurry
+    - [ ] reform the table
+    - [ ] replot the pies
 
 ------
 **sscontest**
