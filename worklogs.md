@@ -74,11 +74,11 @@
       - [x] send UMAP plots on counts respectively
     - [ ] try harmony
       - [ ] walkthrough (functions "cosine_" not installed)
-        - [ ] submit github issue
+            - [ ] submit github issue
       - [ ] jeff trying subsets
       - [ ] on all types of cells (immune+cancer?)
-        - [x] raw counts as input
-        - [ ] es.ss as input
+            - [x] raw counts as input
+            - [ ] es.ss as input
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
     - [x] compare before and after distribution 
@@ -127,7 +127,7 @@ chiproject
   - [ ] es.ss de on pareto arcs
   - [x] update 02D_scRNAseq_CNV_subclone@u54
   - [x] ut training
-  - [ ] take pics of the figures on small sister's desk
+  - [x] take pics of the figures on small sister's desk and send to her wechat
 
 **scripts availability**
 

@@ -1,6 +1,7 @@
 ## color  
 - [Hex Colors, Color Picker](https://encycolorpedia.com/)  
 - [NIPPON COLORS](https://nipponcolors.com/)  
+- [张秋寒－色卡](https://www.douban.com/photos/album/1614898522/)
 
 ## codes  
 - [codepen](https://codepen.io)
