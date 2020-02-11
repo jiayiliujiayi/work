@@ -20,6 +20,9 @@
     - [ ] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
   - cancer genotypes
     - [x] pyclone
+  - misc
+    - [ ] :red_circle: ask jeff about the cancer Umap clustering scripts
+      - [ ] run the scripts and check the clusters
 - BRST006  
   ……  
   - normal
@@ -28,6 +31,8 @@
       - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
   - cancer phenotypes
     - [x] Pareto
+      - [x] on es.ss
+      - [ ] on counts (Seurat)
   - cancer genotypes 
     - [x] pyclone
 - BRST007  
@@ -53,6 +58,8 @@
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
   - cancer genotypes
     - [x] pyclone
+  - misc
+    - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
 - combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
     - [x] yes
@@ -60,7 +67,7 @@
     - [x] email jeff the results
   - [x] email jeff: raw counts umap, combat umap, cca umap
     - [x] run a umap on the concatenated raw counts
-  - [ ] wrap up corrections
+  - [ ] :red_circle: wrap up corrections
     - [x] CCA:  
       - [x] CCA on the h.es.ss, then cluster
       - [x] CCA on counts then h.es.ss then cluster
@@ -90,7 +97,7 @@
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
   - [x] check the .Key file: schematic@formalin fixation
-  - [ ] address jeff's comments no hurry
+  - [ ] :red_circle: address jeff's comments no hurry
     - [ ] reform the table
     - [ ] replot the pies
 
@@ -124,10 +131,11 @@ chiproject
   - [x] singler in singluarity r on unicron: not working -- rjags has non zero exit status
   - [x] send jeff dir to the pat1 cancer counts
   - [x] send jeff the dropbox link to the figures & tables
-  - [ ] es.ss de on pareto arcs
+  - [x] es.ss de on pareto arcs
   - [x] update 02D_scRNAseq_CNV_subclone@u54
   - [x] ut training
   - [x] take pics of the figures on small sister's desk and send to her wechat
+  - [x] bioinfo weekly meeting presentation @10 Feb
 
 **scripts availability**
 
@@ -152,10 +160,12 @@ chiproject
   - ~~CCA on counts (emailed), respective UMAP~~
   - ~~007 cnv reg by small sis~~
   - ~~try harmony~~
-- 2020-02-05
+- 2020-02-04
   - ~~WES copy number~~
   - ~~pyclone results~~
   - ~~WES higher vs lower coverage compare~~
+- 2020-02-11
+  - 
 
 ##### IBP Mac crash logs
 
