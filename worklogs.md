@@ -20,6 +20,7 @@
     - [ ] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
   - cancer genotypes
     - [x] pyclone
+      - [ ] :red_circle:trying another 150x session
   - misc
     - [ ] :red_circle: ask jeff about the cancer Umap clustering scripts
       - [ ] run the scripts and check the clusters
@@ -35,6 +36,7 @@
       - [ ] on counts (Seurat)
   - cancer genotypes 
     - [x] pyclone
+      - [ ] :red_circle:trying another 150x session
 - BRST007  
   ……  
   - rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
@@ -81,11 +83,14 @@
       - [x] send UMAP plots on counts respectively
     - [ ] try harmony
       - [ ] walkthrough (functions "cosine_" not installed)
-            - [ ] submit github issue
+            - [x] submit github issue
       - [ ] jeff trying subsets
       - [ ] on all types of cells (immune+cancer?)
             - [x] raw counts as input
-            - [ ] es.ss as input
+            - [x] es.ss as input
+        - [ ] try directy running UMAP/seurat umap/or PCA
+          - [ ] on combined ssgsea
+            - [ ] before: check 
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
     - [x] compare before and after distribution 
@@ -165,7 +170,10 @@ chiproject
   - ~~pyclone results~~
   - ~~WES higher vs lower coverage compare~~
 - 2020-02-11
-  - 
+  - ~~harmony on 004 & 6 es.ss~~
+  - ~~umap pkg vs seurat: variable features --> PCA --> UMAP~~
+  - ~~PCA?~~
+  - ~~007pyclone~~
 
 ##### IBP Mac crash logs
 
