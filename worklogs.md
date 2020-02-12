@@ -20,10 +20,11 @@
     - [ ] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
   - cancer genotypes
     - [x] pyclone
-      - [ ] :red_circle:trying another 150x session
+      - [ ] :red_circle:trying another 150x session ~4k mutations
   - misc
     - [ ] :red_circle: ask jeff about the cancer Umap clustering scripts
       - [ ] run the scripts and check the clusters
+  
 - BRST006  
   ……  
   - normal
@@ -36,7 +37,8 @@
       - [ ] on counts (Seurat)
   - cancer genotypes 
     - [x] pyclone
-      - [ ] :red_circle:trying another 150x session
+      - [ ] :red_circle:trying another 150x session ~1.2k mutations
+  
 - BRST007  
   ……  
   - rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
@@ -62,39 +64,54 @@
     - [x] pyclone
   - misc
     - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
+  
 - combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
+    
     - [x] yes
   - [x] check QC for BRST004 or BRST006: nGenes, nReads, %mitochondria
+    
     - [x] email jeff the results
   - [x] email jeff: raw counts umap, combat umap, cca umap
+    
     - [x] run a umap on the concatenated raw counts
   - [ ] :red_circle: wrap up corrections
     - [x] CCA:  
       - [x] CCA on the h.es.ss, then cluster
       - [x] CCA on counts then h.es.ss then cluster
+      
     - [x] ref to Tran et al 2020 paper to correct _notes: tried, not as good as we thought._  
-      - [x] try harmony: _velo:~/legacy/combinexxxx/cancer/harmony_demo_
+          - [x] try harmony: _velo:~/legacy/combinexxxx/cancer/harmony_demo_
             - [x] on two datasets: one with a small number of cells and the other large. ~1:5. 
             - [x] on two datasets: datapoints of two groups that are far from each other on the PCA.  
-            - [x] on two datasets: one larger, one small, two far.  
+        - [x] on two datasets: one larger, one small, two far.  
+      
     - [x] talked to jeff: 
       - [x] send CCA plots on counts
       - [x] send UMAP plots on counts respectively
+          
     - [ ] try harmony
       - [ ] walkthrough (functions "cosine_" not installed)
             - [x] submit github issue
-      - [ ] jeff trying subsets
-      - [ ] on all types of cells (immune+cancer?)
+          - [ ] jeff trying subsets
+          - [ ] on all types of cells (immune+cancer?)
             - [x] raw counts as input
             - [x] es.ss as input
+          
         - [ ] try directy running UMAP/seurat umap/or PCA
+        
           - [ ] on combined ssgsea
-            - [ ] before: check 
+        
+            before: check
+        
+            - [ ]  if batch effects in 004
+            - [ ] cluster vs samples of 006
+  
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
     - [x] compare before and after distribution 
     - [x] if satisfiedly corrected, then umap on the corrected one
+  
 - wrapups  
   - [x] patient PMH  
     - [x] 007 PMH not available
