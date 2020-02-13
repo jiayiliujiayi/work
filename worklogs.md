@@ -22,8 +22,8 @@
     - [x] pyclone
       - [ ] :red_circle:trying another 150x session ~4k mutations
   - misc
-    - [ ] :red_circle: ask jeff about the cancer Umap clustering scripts
-      - [ ] run the scripts and check the clusters
+    - [x] ask jeff about the cancer Umap clustering scripts
+      - [ ] :red_circle:run the scripts and check the clusters
   
 - BRST006  
   ……  
@@ -37,7 +37,8 @@
       - [ ] on counts (Seurat)
   - cancer genotypes 
     - [x] pyclone
-      - [ ] :red_circle:trying another 150x session ~1.2k mutations
+      - [x] try another 150x session ~1.2k mutations
+      - [ ] :red_circle: check allelfrequency
   
 - BRST007  
   ……  
@@ -104,9 +105,13 @@
         
             before: check
         
-            - [ ]  if batch effects in 004
-            - [ ] cluster vs samples of 006
-  
+            - [ ]  :red_circle:if batch effects in 004
+            - [ ] :red_circle:cluster vs samples of 006
+      
+      - [ ] try seurat umap
+      
+      - [ ] try PCA
+    
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
     - [x] compare before and after distribution 
