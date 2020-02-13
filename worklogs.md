@@ -20,6 +20,11 @@
     - [ ] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
   - cancer genotypes
     - [x] pyclone
+      - [ ] :red_circle:trying another 150x session ~4k mutations
+  - misc
+    - [x] ask jeff about the cancer Umap clustering scripts
+      - [ ] :red_circle:run the scripts and check the clusters
+  
 - BRST006  
   ……  
   - normal
@@ -28,8 +33,13 @@
       - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
   - cancer phenotypes
     - [x] Pareto
+      - [x] on es.ss
+      - [ ] on counts (Seurat)
   - cancer genotypes 
     - [x] pyclone
+      - [x] try another 150x session ~1.2k mutations
+      - [ ] :red_circle: check allelfrequency
+  
 - BRST007  
   ……  
   - rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
@@ -53,36 +63,60 @@
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
   - cancer genotypes
     - [x] pyclone
+  - misc
+    - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
+  
 - combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
+    
     - [x] yes
   - [x] check QC for BRST004 or BRST006: nGenes, nReads, %mitochondria
+    
     - [x] email jeff the results
   - [x] email jeff: raw counts umap, combat umap, cca umap
+    
     - [x] run a umap on the concatenated raw counts
-  - [ ] wrap up corrections
+  - [ ] :red_circle: wrap up corrections
     - [x] CCA:  
       - [x] CCA on the h.es.ss, then cluster
       - [x] CCA on counts then h.es.ss then cluster
+      
     - [x] ref to Tran et al 2020 paper to correct _notes: tried, not as good as we thought._  
-      - [x] try harmony: _velo:~/legacy/combinexxxx/cancer/harmony_demo_
+          - [x] try harmony: _velo:~/legacy/combinexxxx/cancer/harmony_demo_
             - [x] on two datasets: one with a small number of cells and the other large. ~1:5. 
             - [x] on two datasets: datapoints of two groups that are far from each other on the PCA.  
-            - [x] on two datasets: one larger, one small, two far.  
+        - [x] on two datasets: one larger, one small, two far.  
+      
     - [x] talked to jeff: 
       - [x] send CCA plots on counts
       - [x] send UMAP plots on counts respectively
+          
     - [ ] try harmony
       - [ ] walkthrough (functions "cosine_" not installed)
-            - [ ] submit github issue
-      - [ ] jeff trying subsets
-      - [ ] on all types of cells (immune+cancer?)
+            - [x] submit github issue
+          - [ ] jeff trying subsets
+          - [ ] on all types of cells (immune+cancer?)
             - [x] raw counts as input
-            - [ ] es.ss as input
+            - [x] es.ss as input
+          
+        - [ ] try directy running UMAP/seurat umap/or PCA
+        
+          - [ ] on combined ssgsea
+        
+            before: check
+        
+            - [ ]  :red_circle:if batch effects in 004
+            - [ ] :red_circle:cluster vs samples of 006
+      
+      - [ ] try seurat umap
+      
+      - [ ] try PCA
+    
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
     - [x] compare before and after distribution 
     - [x] if satisfiedly corrected, then umap on the corrected one
+  
 - wrapups  
   - [x] patient PMH  
     - [x] 007 PMH not available
@@ -90,7 +124,7 @@
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
   - [x] check the .Key file: schematic@formalin fixation
-  - [ ] address jeff's comments no hurry
+  - [ ] :red_circle: address jeff's comments no hurry
     - [ ] reform the table
     - [ ] replot the pies
 
@@ -124,10 +158,11 @@ chiproject
   - [x] singler in singluarity r on unicron: not working -- rjags has non zero exit status
   - [x] send jeff dir to the pat1 cancer counts
   - [x] send jeff the dropbox link to the figures & tables
-  - [ ] es.ss de on pareto arcs
+  - [x] es.ss de on pareto arcs
   - [x] update 02D_scRNAseq_CNV_subclone@u54
   - [x] ut training
   - [x] take pics of the figures on small sister's desk and send to her wechat
+  - [x] bioinfo weekly meeting presentation @10 Feb
 
 **scripts availability**
 
@@ -152,10 +187,15 @@ chiproject
   - ~~CCA on counts (emailed), respective UMAP~~
   - ~~007 cnv reg by small sis~~
   - ~~try harmony~~
-- 2020-02-05
+- 2020-02-04
   - ~~WES copy number~~
   - ~~pyclone results~~
   - ~~WES higher vs lower coverage compare~~
+- 2020-02-11
+  - ~~harmony on 004 & 6 es.ss~~
+  - ~~umap pkg vs seurat: variable features --> PCA --> UMAP~~
+  - ~~PCA?~~
+  - ~~007pyclone~~
 
 ##### IBP Mac crash logs
 

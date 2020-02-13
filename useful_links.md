@@ -2,6 +2,7 @@
 - [Hex Colors, Color Picker](https://encycolorpedia.com/)  
 - [NIPPON COLORS](https://nipponcolors.com/)  
 - [张秋寒－色卡](https://www.douban.com/photos/album/1614898522/)
+- [中国传统颜色卡](https://colors.ichuantong.cn/)， [来源](http://blog.sina.com.cn/s/blog_5c3b139d0101deia.html)
 
 ## codes  
 - [codepen](https://codepen.io)
