@@ -34,7 +34,7 @@
   - cancer phenotypes
     - [x] Pareto
       - [x] on es.ss
-      - [ ] on counts (Seurat)
+      - [ ] :red_circle:on counts (Seurat)
   - cancer genotypes 
     - [x] pyclone
       - [x] try another 150x session ~1.2k mutations
@@ -95,7 +95,7 @@
       - [ ] walkthrough (functions "cosine_" not installed)
             - [x] submit github issue
           - [ ] jeff trying subsets
-          - [ ] on all types of cells (immune+cancer?)
+          - [x] on all types of cells (immune+cancer?)
             - [x] raw counts as input
             - [x] es.ss as input
           
@@ -105,12 +105,14 @@
         
             before: check
         
-            - [ ]  :red_circle:if batch effects in 004
-            - [ ] :red_circle:cluster vs samples of 006
+            - [x]  if batch effects in 004 _notes: no batch effect_
+            - [x] cluster vs samples of 006 _no batch effect_
       
-      - [ ] try seurat umap
+      - [x] try seurat umap _notes: similar to umap package_
       
-      - [ ] try PCA
+      - [ ] :red_circle:try PCA
+      
+      - [ ] :red_circle: try on zinbwave corrected​
     
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
@@ -142,6 +144,11 @@ velo:/zhaoproject/jing_filter.....
 
 - [x] draft method
 
+**zhaopdxproject**
+
+- [x] check email
+- [ ] prelim analysis
+
 ------
 
 chiproject
@@ -163,6 +170,8 @@ chiproject
   - [x] ut training
   - [x] take pics of the figures on small sister's desk and send to her wechat
   - [x] bioinfo weekly meeting presentation @10 Feb
+  - [ ] NIH Commons ID
+  - [ ] update betsy ssgsea commands
 
 **scripts availability**
 
