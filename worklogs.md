@@ -20,13 +20,15 @@
     - [ ] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
   - cancer genotypes
     - [x] pyclone
-      - [ ] :red_circle:trying another 150x session ~4k mutations
+      - [x] trying another 150x session ~4k mutations
+      - [ ] :red_circle: wrap up​
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
   
 - BRST006  
   ……  
+  
   - normal
     - immune
       - [x] prepare immune counts
@@ -38,6 +40,7 @@
   - cancer genotypes 
     - [x] pyclone
       - [x] try another 150x session ~1.2k mutations
+      - [ ] :red_circle: wrap up​
       - [ ] :red_circle: check allelfrequency
   
 - BRST007  
@@ -147,7 +150,8 @@ velo:/zhaoproject/jing_filter.....
 **zhaopdxproject**
 
 - [x] check email
-- [ ] prelim analysis
+- [x] generate tables
+- [x] prelim analysis
 
 ------
 
