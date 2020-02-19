@@ -21,6 +21,7 @@
   - cancer genotypes
     - [x] pyclone
       - [x] trying another 150x session ~4k mutations
+      - [ ] :red_circle:try higher vaf, lower others
       - [ ] :red_circle: wrap up​
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
@@ -40,7 +41,8 @@
   - cancer genotypes 
     - [x] pyclone
       - [x] try another 150x session ~1.2k mutations
-      - [ ] :red_circle: wrap up​
+      - [x] ~~rap up​~~
+      - [ ] :red_circle: higher vaf, lower others​
       - [ ] :red_circle: check allelfrequency
   
 - BRST007  
@@ -104,7 +106,7 @@
           
         - [ ] try directy running UMAP/seurat umap/or PCA
         
-          - [ ] on combined ssgsea
+          - [x] on combined ssgsea
         
             before: check
         
@@ -113,9 +115,11 @@
       
       - [x] try seurat umap _notes: similar to umap package_
       
-      - [ ] :red_circle:try PCA
+      - [x] ~~​try PCA~~
       
-      - [ ] :red_circle: try on zinbwave corrected​
+      - [x] try on zinbwave corrected​
+      
+    - [ ] :red_circle:try 6 ways of clustering (pic taken)
     
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
@@ -176,6 +180,7 @@ chiproject
   - [x] bioinfo weekly meeting presentation @10 Feb
   - [ ] NIH Commons ID
   - [ ] update betsy ssgsea commands
+  - [ ] update R container in .genomicoderc
 
 **scripts availability**
 
@@ -209,6 +214,10 @@ chiproject
   - ~~umap pkg vs seurat: variable features --> PCA --> UMAP~~
   - ~~PCA?~~
   - ~~007pyclone~~
+- 2020-02-18
+  - ~~wrapped up umap & seurat umap results on es.ss~~
+  - ~~betsy umap on es.ss not working~~
+  - ~~pyclone results on 004 and 006~~
 
 ##### IBP Mac crash logs
 
