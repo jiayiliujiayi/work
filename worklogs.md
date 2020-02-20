@@ -179,8 +179,8 @@ chiproject
   - [x] take pics of the figures on small sister's desk and send to her wechat
   - [x] bioinfo weekly meeting presentation @10 Feb
   - [ ] NIH Commons ID
-  - [ ] update betsy ssgsea commands
-  - [ ] update R container in .genomicoderc
+  - [x] update betsy ssgsea commands
+  - [x] update R container in .genomicoderc
 
 **scripts availability**
 
