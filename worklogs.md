@@ -90,14 +90,15 @@
           - [x] try harmony: _velo:~/legacy/combinexxxx/cancer/harmony_demo_
             - [x] on two datasets: one with a small number of cells and the other large. ~1:5. 
             - [x] on two datasets: datapoints of two groups that are far from each other on the PCA.  
-        - [x] on two datasets: one larger, one small, two far.  
+          
+    - [x] on two datasets: one larger, one small, two far.  
       
     - [x] talked to jeff: 
       - [x] send CCA plots on counts
-      - [x] send UMAP plots on counts respectively
-          
+          - [x] send UMAP plots on counts respectively
+      
     - [ ] try harmony
-      - [ ] walkthrough (functions "cosine_" not installed)
+          - [ ] walkthrough (functions "cosine_" not installed)
             - [x] submit github issue
           - [ ] jeff trying subsets
           - [x] on all types of cells (immune+cancer?)
@@ -111,7 +112,7 @@
             before: check
         
             - [x]  if batch effects in 004 _notes: no batch effect_
-            - [x] cluster vs samples of 006 _no batch effect_
+        - [x] cluster vs samples of 006 _no batch effect_
       
       - [x] try seurat umap _notes: similar to umap package_
       
@@ -119,7 +120,9 @@
       
       - [x] try on zinbwave corrected​
       
-    - [ ] :red_circle:try 6 ways of clustering (pic taken)
+    - [x] try 6 ways of clustering (pic taken)
+    
+      - [ ] :red_circle:harmony on combined cancer counts
     
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
