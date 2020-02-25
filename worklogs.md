@@ -2,7 +2,7 @@
 
 **general**
 
-- [x] summarize scripts: plot cnv using complexheatmap R3.4 (input "nferCNV.obs.txt" and "dendrongram.txt" (call phylogram::read.dendrogram) from R3.6 in .sif)
+- [x] summarize scripts: plot cnv using complexheatmap R3.4 (input "inferCNV.obs.txt" and "dendrongram.txt" (call phylogram::read.dendrogram) from R3.6 in .sif)
   ~~- [ ] or try Infercnv&complexheatmap in singluarity container? %after the container is done~~ notes: better not wrap two functions into one: gotta check the prelim cna & confirm the annotations before plotting  
 - [x] add gather scripts (ref: zhaoproject folder)
 
@@ -21,8 +21,8 @@
   - cancer genotypes
     - [x] pyclone
       - [x] trying another 150x session ~4k mutations
-      - [ ] :red_circle:try higher vaf, lower others
-      - [ ] :red_circle: wrap up​
+      - [x] try higher vaf, lower others
+      - [x] wrap up​
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
@@ -40,10 +40,10 @@
       - [ ] :red_circle:on counts (Seurat)
   - cancer genotypes 
     - [x] pyclone
-      - [x] try another 150x session ~1.2k mutations
+      - [x] try another 150x session ~1k mutations
       - [x] ~~rap up​~~
-      - [ ] :red_circle: higher vaf, lower others​
-      - [ ] :red_circle: check allelfrequency
+      - [x] higher vaf, lower others​ _notes: results similar to 1k mutations_
+      - [x] check allelfrequency
   
 - BRST007  
   ……  
@@ -66,6 +66,12 @@
     - [x] check PTPRC levels in the annotated "cancer"s &rarr; ~5% of which are PTPRC+
     - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
+  - cancer phenotypes
+    - [ ] cluster based
+      - [x] counts --> pca --> umap _notes: cluster by samples_
+      - [ ] :red_circle:scores ==> betsy seurat umap (disp, vst) **running**
+      - [ ] :red_circle:zinbwave scores ==> betsy seurat umap (disp, vst) **running**
+    - [ ] 
   - cancer genotypes
     - [x] pyclone
   - misc
@@ -105,7 +111,7 @@
             - [x] raw counts as input
             - [x] es.ss as input
           
-        - [ ] try directy running UMAP/seurat umap/or PCA
+        - [x] try directy running UMAP/seurat umap/or PCA
         
           - [x] on combined ssgsea
         
@@ -122,7 +128,7 @@
       
     - [x] try 6 ways of clustering (pic taken)
     
-      - [ ] :red_circle:harmony on combined cancer counts
+      - [x] harmony on combined cancer counts
     
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
@@ -221,6 +227,10 @@ chiproject
   - ~~wrapped up umap & seurat umap results on es.ss~~
   - ~~betsy umap on es.ss not working~~
   - ~~pyclone results on 004 and 006~~
+- 2020-02-24
+  - pyclone higher vaf results
+  - harmony on counts (variable features ==> pea ==> tsne) not as good as #5 approach
+  - trying seurat disp umap on 007cancer h/c2
 
 ##### IBP Mac crash logs
 
