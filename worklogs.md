@@ -23,9 +23,11 @@
       - [x] trying another 150x session ~4k mutations
       - [x] try higher vaf, lower others
       - [x] wrap up​
+      - [ ] :red_circle: split the svm!!! ​
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
+    - [x] send jeff the input, scripts and output of pyclone.  
   
 - BRST006  
   ……  
@@ -35,7 +37,7 @@
       - [x] prepare immune counts
       - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
   - cancer phenotypes
-    - [x] Pareto
+    - [x] Paretoå
       - [x] on es.ss
       - [ ] :red_circle:on counts (Seurat)
   - cancer genotypes 
@@ -69,8 +71,10 @@
   - cancer phenotypes
     - [ ] cluster based
       - [x] counts --> pca --> umap _notes: cluster by samples_
-      - [ ] :red_circle:scores ==> betsy seurat umap (disp, vst) **running**
-      - [ ] :red_circle:zinbwave scores ==> betsy seurat umap (disp, vst) **running**
+      - [x] scores ==> betsy seurat umap (disp, vst) **running**
+      - [ ] :red_circle:zinbwave scores ==> betsy seurat umap (disp, vst) 
+        - [x] do zinbwave
+        - [ ] run umap
     - [ ] 
   - cancer genotypes
     - [x] pyclone
@@ -129,6 +133,9 @@
     - [x] try 6 ways of clustering (pic taken)
     
       - [x] harmony on combined cancer counts
+      - [ ] 5.3 pathway CCA, seuratumap, cancer+immune
+      - [ ] 4 pareto
+      - [ ] 8 
     
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
@@ -228,9 +235,10 @@ chiproject
   - ~~betsy umap on es.ss not working~~
   - ~~pyclone results on 004 and 006~~
 - 2020-02-24
-  - pyclone higher vaf results
-  - harmony on counts (variable features ==> pea ==> tsne) not as good as #5 approach
-  - trying seurat disp umap on 007cancer h/c2
+  - ~~pyclone higher vaf results~~
+  - ~~harmony on counts (variable features ==> pea ==> tsne) not as good as #5 approach~~
+  - ~~trying seurat disp umap on 007cancer h/c2, raw scores done,~~ zinbwaved scores pending
+  - ~~X issuse in read.delim, show variable features from betsy pipeline~~
 
 ##### IBP Mac crash logs
 
