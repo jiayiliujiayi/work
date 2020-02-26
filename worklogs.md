@@ -23,7 +23,7 @@
       - [x] trying another 150x session ~4k mutations
       - [x] try higher vaf, lower others
       - [x] wrap up​
-      - [ ] :red_circle: split the svm!!! ​
+      - [ ] :red_circle: split the svm _notes: jeff said he will solve it_
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
@@ -133,7 +133,9 @@
     - [x] try 6 ways of clustering (pic taken)
     
       - [x] harmony on combined cancer counts
-      - [ ] 5.3 pathway CCA, seuratumap, cancer+immune
+      - [x] 5.3 counts CCA, seuratumap, all celltypes
+      - [ ] 5.4 counts CCA, seuratumap, all celltypes 007 included
+      - [ ] 5.5 pathway CCA, seuratumap, cancer+immune
       - [ ] 4 pareto
       - [ ] 8 
     
