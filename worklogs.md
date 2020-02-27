@@ -2,7 +2,7 @@
 
 **general**
 
-- [x] summarize scripts: plot cnv using complexheatmap R3.4 (input "nferCNV.obs.txt" and "dendrongram.txt" (call phylogram::read.dendrogram) from R3.6 in .sif)
+- [x] summarize scripts: plot cnv using complexheatmap R3.4 (input "inferCNV.obs.txt" and "dendrongram.txt" (call phylogram::read.dendrogram) from R3.6 in .sif)
   ~~- [ ] or try Infercnv&complexheatmap in singluarity container? %after the container is done~~ notes: better not wrap two functions into one: gotta check the prelim cna & confirm the annotations before plotting  
 - [x] add gather scripts (ref: zhaoproject folder)
 
@@ -21,11 +21,14 @@
   - cancer genotypes
     - [x] pyclone
       - [x] trying another 150x session ~4k mutations
-      - [ ] :red_circle:try higher vaf, lower others
-      - [ ] :red_circle: wrap up​
+      - [x] try higher vaf, lower others
+      - [x] wrap up​
+      - [x] split the svm _notes: jeff said he will solve it_
+      - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved)
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
+    - [x] send jeff the input, scripts and output of pyclone.  
   
 - BRST006  
   ……  
@@ -40,10 +43,11 @@
       - [ ] :red_circle:on counts (Seurat)
   - cancer genotypes 
     - [x] pyclone
-      - [x] try another 150x session ~1.2k mutations
+      - [x] try another 150x session ~1k mutations
       - [x] ~~rap up​~~
-      - [ ] :red_circle: higher vaf, lower others​
-      - [ ] :red_circle: check allelfrequency
+      - [x] higher vaf, lower others​ _notes: results similar to 1k mutations_
+      - [x] check allelfrequency
+      - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved)
   
 - BRST007  
   ……  
@@ -66,8 +70,17 @@
     - [x] check PTPRC levels in the annotated "cancer"s &rarr; ~5% of which are PTPRC+
     - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
     - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
+  - cancer phenotypes
+    - [ ] cluster based
+      - [x] counts --> pca --> umap _notes: cluster by samples_
+      - [x] scores ==> betsy seurat umap (disp, vst) **running**
+      - [ ] :red_circle:zinbwave scores ==> betsy seurat umap (disp, vst) 
+        - [x] do zinbwave
+        - [ ] run umap
+    - [ ] 
   - cancer genotypes
     - [x] pyclone
+    - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved)
   - misc
     - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
   
@@ -105,7 +118,7 @@
             - [x] raw counts as input
             - [x] es.ss as input
           
-        - [ ] try directy running UMAP/seurat umap/or PCA
+        - [x] try directy running UMAP/seurat umap/or PCA
         
           - [x] on combined ssgsea
         
@@ -122,7 +135,13 @@
       
     - [x] try 6 ways of clustering (pic taken)
     
-      - [ ] :red_circle:harmony on combined cancer counts
+      - [x] harmony on combined cancer counts
+      - [x] 5.3 counts CCA, seuratumap, all celltypes
+      - [x] 5.4 counts CCA, seuratumap, all celltypes 007 included _notes: too many 007, might squeeze the cells from other pats_
+        - [ ] try subset 007 then run CCA
+      - [ ] 5.5 pathway CCA, seuratumap, cancer+immune
+      - [ ] 4 pareto
+      - [ ] 8 
     
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
@@ -221,6 +240,11 @@ chiproject
   - ~~wrapped up umap & seurat umap results on es.ss~~
   - ~~betsy umap on es.ss not working~~
   - ~~pyclone results on 004 and 006~~
+- 2020-02-24
+  - ~~pyclone higher vaf results~~
+  - ~~harmony on counts (variable features ==> pea ==> tsne) not as good as #5 approach~~
+  - ~~trying seurat disp umap on 007cancer h/c2, raw scores done,~~ zinbwaved scores pending
+  - ~~X issuse in read.delim, show variable features from betsy pipeline~~
 
 ##### IBP Mac crash logs
 
