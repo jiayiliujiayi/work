@@ -23,7 +23,8 @@
       - [x] trying another 150x session ~4k mutations
       - [x] try higher vaf, lower others
       - [x] wrap up​
-      - [ ] :red_circle: split the svm _notes: jeff said he will solve it_
+      - [x] split the svm _notes: jeff said he will solve it_
+      - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved)
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
@@ -37,7 +38,7 @@
       - [x] prepare immune counts
       - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
   - cancer phenotypes
-    - [x] Paretoå
+    - [x] Pareto
       - [x] on es.ss
       - [ ] :red_circle:on counts (Seurat)
   - cancer genotypes 
@@ -46,6 +47,7 @@
       - [x] ~~rap up​~~
       - [x] higher vaf, lower others​ _notes: results similar to 1k mutations_
       - [x] check allelfrequency
+      - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved)
   
 - BRST007  
   ……  
@@ -78,6 +80,7 @@
     - [ ] 
   - cancer genotypes
     - [x] pyclone
+    - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved)
   - misc
     - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
   
@@ -134,7 +137,8 @@
     
       - [x] harmony on combined cancer counts
       - [x] 5.3 counts CCA, seuratumap, all celltypes
-      - [ ] 5.4 counts CCA, seuratumap, all celltypes 007 included
+      - [x] 5.4 counts CCA, seuratumap, all celltypes 007 included _notes: too many 007, might squeeze the cells from other pats_
+        - [ ] try subset 007 then run CCA
       - [ ] 5.5 pathway CCA, seuratumap, cancer+immune
       - [ ] 4 pareto
       - [ ] 8 
