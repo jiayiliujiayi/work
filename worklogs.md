@@ -24,7 +24,7 @@
       - [x] try higher vaf, lower others
       - [x] wrap up​
       - [x] split the svm _notes: jeff said he will solve it_
-      - [x] rerun pyclone​ (svm sample id issue solved) and wrap up, both 50x and 150x
+      - [ ] :red_circle:rerun pyclone (svm sample id issue solved) and wrap up, both 50x and 150x
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
@@ -48,7 +48,7 @@
       - [x] higher vaf, lower others​ _notes: results similar to 1k mutations_
       - [x] check allelfrequency
       - [x] rerun pyclone (svm sample id issue solved) 
-        - [ ] rerun 150x 
+        - [ ] :red_circle:rerun 150x 
         - [ ] wrap up, both 50x and 150x
   
 - BRST007  
@@ -140,7 +140,7 @@
       - [x] harmony on combined cancer counts
       - [x] 5.3 counts CCA, seuratumap, all celltypes
       - [x] 5.4 counts CCA, seuratumap, all celltypes 007 included _notes: too many 007, might squeeze the cells from other pats_
-        - [x] try subset 007 then run CCA
+          - [x] try subset 007 then run CCA
       - [ ] 5.5 pathway CCA, seuratumap, cancer+immune
       - [ ] 4 pareto
       - [ ] 8 
