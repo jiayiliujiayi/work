@@ -9,8 +9,9 @@
 ------
 **Legacy**  
 
-- BRST004  
+- **BRST004**  
   ……  
+  
   - normal
     - immune
       - [x] prepare immune counts
@@ -24,13 +25,14 @@
       - [x] try higher vaf, lower others
       - [x] wrap up​
       - [x] split the svm _notes: jeff said he will solve it_
-      - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved)
+      - [x] rerun pyclone (svm sample id issue solved) and wrap up, both 50x and 150x
+      - [x] wrap up after svm sample id issue solved​
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
     - [x] send jeff the input, scripts and output of pyclone.  
   
-- BRST006  
+- **BRST006**  
   ……  
   
   - normal
@@ -47,10 +49,13 @@
       - [x] ~~rap up​~~
       - [x] higher vaf, lower others​ _notes: results similar to 1k mutations_
       - [x] check allelfrequency
-      - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved)
+      - [x] rerun pyclone (svm sample id issue solved) 
+        - [x] rerun 150x using unfiltered mutations call
+        - [ ] wrap up, both 50x and 150x
   
-- BRST007  
+- **BRST007**  
   ……  
+  
   - rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
   - seperate cancer from normal
     - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then:_ 
@@ -80,11 +85,26 @@
     - [ ] 
   - cancer genotypes
     - [x] pyclone
-    - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved)
+    - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved), 150x _running_
+    - [ ] :red_circle: wrap up​ 
   - misc
     - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
   
+- **BRST002**
+  
+  - qc
+    - [x] compare kallisto vs cellranger
+    - [x] filter cells
+    - [ ] filtered_umap _running_
+    
+  - [ ] split normal from cancer (infercnv) _running_
+  
+  - snormal
+  - cancer phenotype
+  - cancer genotype
+  
 - combined analysis
+  
   - [x] check if batch effects in es.ss between 004 and 6
     
     - [x] yes
@@ -138,7 +158,7 @@
       - [x] harmony on combined cancer counts
       - [x] 5.3 counts CCA, seuratumap, all celltypes
       - [x] 5.4 counts CCA, seuratumap, all celltypes 007 included _notes: too many 007, might squeeze the cells from other pats_
-        - [ ] try subset 007 then run CCA
+          - [x] try subset 007 then run CCA
       - [ ] 5.5 pathway CCA, seuratumap, cancer+immune
       - [ ] 4 pareto
       - [ ] 8 
@@ -245,6 +265,9 @@ chiproject
   - ~~harmony on counts (variable features ==> pea ==> tsne) not as good as #5 approach~~
   - ~~trying seurat disp umap on 007cancer h/c2, raw scores done,~~ zinbwaved scores pending
   - ~~X issuse in read.delim, show variable features from betsy pipeline~~
+- 2020-03-03
+  - pyclone new results, 2 pats, 2 depths
+  - 002 results
 
 ##### IBP Mac crash logs
 
