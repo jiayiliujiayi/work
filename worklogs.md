@@ -25,7 +25,8 @@
       - [x] try higher vaf, lower others
       - [x] wrap up​
       - [x] split the svm _notes: jeff said he will solve it_
-      - [ ] :red_circle:rerun pyclone (svm sample id issue solved) and wrap up, both 50x and 150x
+      - [x] rerun pyclone (svm sample id issue solved) and wrap up, both 50x and 150x
+      - [x] wrap up after svm sample id issue solved​
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
@@ -49,7 +50,7 @@
       - [x] higher vaf, lower others​ _notes: results similar to 1k mutations_
       - [x] check allelfrequency
       - [x] rerun pyclone (svm sample id issue solved) 
-        - [ ] :red_circle:rerun 150x 
+        - [x] rerun 150x using unfiltered mutations call
         - [ ] wrap up, both 50x and 150x
   
 - **BRST007**  
@@ -84,22 +85,24 @@
     - [ ] 
   - cancer genotypes
     - [x] pyclone
-    - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved), 150x
+    - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved), 150x _running_
+    - [ ] :red_circle: wrap up​ 
   - misc
     - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
   
 - **BRST002**
   
   - qc
-    - [ ] compare kallisto vs cellranger
-    - [ ] filter cells
+    - [x] compare kallisto vs cellranger
+    - [x] filter cells
+    - [ ] filtered_umap _running_
+    
+  - [ ] split normal from cancer (infercnv) _running_
   
-  - [ ] split normal from cancer -- infercnv
-  
-  - normal
+  - snormal
   - cancer phenotype
   - cancer genotype
-
+  
 - combined analysis
   
   - [x] check if batch effects in es.ss between 004 and 6
@@ -262,6 +265,9 @@ chiproject
   - ~~harmony on counts (variable features ==> pea ==> tsne) not as good as #5 approach~~
   - ~~trying seurat disp umap on 007cancer h/c2, raw scores done,~~ zinbwaved scores pending
   - ~~X issuse in read.delim, show variable features from betsy pipeline~~
+- 2020-03-03
+  - pyclone new results, 2 pats, 2 depths
+  - 002 results
 
 ##### IBP Mac crash logs
 
