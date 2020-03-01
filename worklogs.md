@@ -9,8 +9,9 @@
 ------
 **Legacy**  
 
-- BRST004  
+- **BRST004**  
   ……  
+  
   - normal
     - immune
       - [x] prepare immune counts
@@ -30,7 +31,7 @@
       - [ ] :red_circle:run the scripts and check the clusters
     - [x] send jeff the input, scripts and output of pyclone.  
   
-- BRST006  
+- **BRST006**  
   ……  
   
   - normal
@@ -51,8 +52,9 @@
         - [ ] :red_circle:rerun 150x 
         - [ ] wrap up, both 50x and 150x
   
-- BRST007  
+- **BRST007**  
   ……  
+  
   - rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
   - seperate cancer from normal
     - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then:_ 
@@ -86,7 +88,20 @@
   - misc
     - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
   
+- **BRST002**
+  
+  - qc
+    - [ ] compare kallisto vs cellranger
+    - [ ] filter cells
+  
+  - [ ] split normal from cancer -- infercnv
+  
+  - normal
+  - cancer phenotype
+  - cancer genotype
+
 - combined analysis
+  
   - [x] check if batch effects in es.ss between 004 and 6
     
     - [x] yes
