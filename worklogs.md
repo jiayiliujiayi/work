@@ -26,7 +26,7 @@
       - [x] wrap up​
       - [x] split the svm _notes: jeff said he will solve it_
       - [x] rerun pyclone (svm sample id issue solved) and wrap up, both 50x and 150x
-      - [x] wrap up after svm sample id issue solved​
+      - [ ] :red_circle:wrap up after svm sample id issue solved
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
@@ -79,9 +79,9 @@
     - [ ] cluster based
       - [x] counts --> pca --> umap _notes: cluster by samples_
       - [x] scores ==> betsy seurat umap (disp, vst) **running**
-      - [ ] :red_circle:zinbwave scores ==> betsy seurat umap (disp, vst) 
+      - [x] zinbwave scores ==> betsy seurat umap (disp, vst) 
         - [x] do zinbwave
-        - [ ] run umap
+        - [ ] :red_circle:run umap
     - [ ] 
   - cancer genotypes
     - [x] pyclone
@@ -95,7 +95,8 @@
   - qc
     - [x] compare kallisto vs cellranger
     - [x] filter cells
-    - [ ] filtered_umap _running_
+    - [ ] filtered_umap
+    - [ ] filtered SingleR annotation
     
   - [ ] split normal from cancer (infercnv) _running_
   
