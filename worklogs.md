@@ -97,10 +97,9 @@
     - [x] filter cells
     - [ ] filtered_umap
     - [ ] filtered SingleR annotation
-    
-  - [ ] split normal from cancer (infercnv) _running_
-  
-  - snormal
+  - [x] split normal from cancer (infercnv) 
+  - [ ] xuan regress celltype then infercnv
+  - normal
   - cancer phenotype
   - cancer genotype
   
@@ -224,6 +223,7 @@ chiproject
   - [ ] NIH Commons ID
   - [x] update betsy ssgsea commands
   - [x] update R container in .genomicoderc
+  - [ ] :red_circle: report timesheet​
 
 **scripts availability**
 
