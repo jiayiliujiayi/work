@@ -26,7 +26,8 @@
       - [x] wrap up​
       - [x] split the svm _notes: jeff said he will solve it_
       - [x] rerun pyclone (svm sample id issue solved) and wrap up, both 50x and 150x
-      - [ ] :red_circle:wrap up after svm sample id issue solved
+      - [x] wrap up after svm sample id issue solved
+      - [ ] :red_circle:rerun pyclone using higher cellularity samples
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
@@ -51,7 +52,8 @@
       - [x] check allelfrequency
       - [x] rerun pyclone (svm sample id issue solved) 
         - [x] rerun 150x using unfiltered mutations call
-        - [ ] wrap up, both 50x and 150x
+        - [x] wrap up, both 50x and 150x
+        - [ ] :red_circle: rerun pyclone, using higher cellularity​
   
 - **BRST007**  
   ……  
@@ -94,11 +96,15 @@
   
   - qc
     - [x] compare kallisto vs cellranger
+      - [x] compare unfiltered
+      - [ ] compare filtered 
     - [x] filter cells
-    - [ ] filtered_umap
-    - [ ] filtered SingleR annotation
+    - [x] filtered_umap
+    - [ ] filtered_tsne and plot
+    - [x] filtered SingleR annotation
   - [x] split normal from cancer (infercnv) 
-  - [ ] xuan regress celltype then infercnv
+    - [ ] xuan regress celltype then infercnv
+    - [ ] ref more
   - normal
   - cancer phenotype
   - cancer genotype
@@ -267,8 +273,8 @@ chiproject
   - ~~trying seurat disp umap on 007cancer h/c2, raw scores done,~~ zinbwaved scores pending
   - ~~X issuse in read.delim, show variable features from betsy pipeline~~
 - 2020-03-03
-  - pyclone new results, 2 pats, 2 depths
-  - 002 results
+  - ~~pyclone new results, 2 pats, 2 depths~~
+  - ~~002 results clustered by samples~~
 
 ##### IBP Mac crash logs
 
