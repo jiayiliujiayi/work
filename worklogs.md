@@ -27,7 +27,7 @@
       - [x] split the svm _notes: jeff said he will solve it_
       - [x] rerun pyclone (svm sample id issue solved) and wrap up, both 50x and 150x
       - [x] wrap up after svm sample id issue solved
-      - [ ] :red_circle:rerun pyclone using higher cellularity samples
+      - [ ] :red_circle:rerun pyclone using higher cellularity samples _running_
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
@@ -53,7 +53,7 @@
       - [x] rerun pyclone (svm sample id issue solved) 
         - [x] rerun 150x using unfiltered mutations call
         - [x] wrap up, both 50x and 150x
-        - [ ] :red_circle: rerun pyclone, using higher cellularity​
+        - [ ] :red_circle: rerun pyclone, using higher cellularity​ _running_
   
 - **BRST007**  
   ……  
@@ -99,12 +99,15 @@
       - [x] compare unfiltered
       - [ ] compare filtered 
     - [x] filter cells
-    - [x] filtered_umap
+    - [x] filtered_umap _notes: clustered by sample_
+      - [ ] so try find umap loadings from 4/6/4&6 (de by celltype) 
+      - [ ] use the loadings as the features for clustering 
     - [ ] filtered_tsne and plot
     - [x] filtered SingleR annotation
   - [x] split normal from cancer (infercnv) 
-    - [ ] xuan regress celltype then infercnv
-    - [ ] ref more
+    - [x] xuan regress celltype 
+      - [ ] infercnv
+    - [ ] ref macrophage&fibroblasts
   - normal
   - cancer phenotype
   - cancer genotype
