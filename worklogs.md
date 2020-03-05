@@ -26,7 +26,8 @@
       - [x] wrap up​
       - [x] split the svm _notes: jeff said he will solve it_
       - [x] rerun pyclone (svm sample id issue solved) and wrap up, both 50x and 150x
-      - [x] wrap up after svm sample id issue solved​
+      - [x] wrap up after svm sample id issue solved
+      - [ ] :red_circle:rerun pyclone using higher cellularity samples _running_
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
       - [ ] :red_circle:run the scripts and check the clusters
@@ -51,7 +52,8 @@
       - [x] check allelfrequency
       - [x] rerun pyclone (svm sample id issue solved) 
         - [x] rerun 150x using unfiltered mutations call
-        - [ ] wrap up, both 50x and 150x
+        - [x] wrap up, both 50x and 150x
+        - [ ] :red_circle: rerun pyclone, using higher cellularity​ _running_
   
 - **BRST007**  
   ……  
@@ -79,9 +81,9 @@
     - [ ] cluster based
       - [x] counts --> pca --> umap _notes: cluster by samples_
       - [x] scores ==> betsy seurat umap (disp, vst) **running**
-      - [ ] :red_circle:zinbwave scores ==> betsy seurat umap (disp, vst) 
+      - [x] zinbwave scores ==> betsy seurat umap (disp, vst) 
         - [x] do zinbwave
-        - [ ] run umap
+        - [ ] :red_circle:run umap
     - [ ] 
   - cancer genotypes
     - [x] pyclone
@@ -94,12 +96,19 @@
   
   - qc
     - [x] compare kallisto vs cellranger
+      - [x] compare unfiltered
+      - [ ] compare filtered 
     - [x] filter cells
-    - [ ] filtered_umap _running_
-    
-  - [ ] split normal from cancer (infercnv) _running_
-  
-  - snormal
+    - [x] filtered_umap _notes: clustered by sample_
+      - [ ] so try find umap loadings from 4/6/4&6 (de by celltype) 
+      - [ ] use the loadings as the features for clustering 
+    - [ ] filtered_tsne and plot
+    - [x] filtered SingleR annotation
+  - [x] split normal from cancer (infercnv) 
+    - [x] xuan regress celltype 
+      - [ ] infercnv
+    - [ ] ref macrophage&fibroblasts
+  - normal
   - cancer phenotype
   - cancer genotype
   
@@ -223,6 +232,7 @@ chiproject
   - [ ] NIH Commons ID
   - [x] update betsy ssgsea commands
   - [x] update R container in .genomicoderc
+  - [ ] :red_circle: report timesheet​
 
 **scripts availability**
 
@@ -266,8 +276,8 @@ chiproject
   - ~~trying seurat disp umap on 007cancer h/c2, raw scores done,~~ zinbwaved scores pending
   - ~~X issuse in read.delim, show variable features from betsy pipeline~~
 - 2020-03-03
-  - pyclone new results, 2 pats, 2 depths
-  - 002 results
+  - ~~pyclone new results, 2 pats, 2 depths~~
+  - ~~002 results clustered by samples~~
 
 ##### IBP Mac crash logs
 
