@@ -100,15 +100,15 @@
       - [ ] compare filtered 
     - [x] filter cells
     - [x] filtered_umap _notes: clustered by sample_
-      - [ ] so try find umap loadings from 4/6/4&6 (de by celltype) 
-      - [ ] use the loadings as the features for clustering 
-    - [ ] filtered_tsne and plot
+      - [ ] so try find umap loadings from 4/6/4&6 (de by celltype) _running_
+      - [ ] :red_circle:use the loadings as the features for clustering 
+    - [x] filtered_tsne and plot _notes: same as in umap_
     - [x] filtered SingleR annotation
   - [x] split normal from cancer (infercnv) 
     - [x] xuan regress celltype 
-      - [ ] infercnv
-    - [ ] ref macrophage&fibroblasts
-  - normal
+      - [ ] :red_circle:infercnv _running_
+    - [x] ref macrophage&fibroblasts
+  - normal 
   - cancer phenotype
   - cancer genotype
   
@@ -184,7 +184,7 @@
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
   - [x] check the .Key file: schematic@formalin fixation
-  - [ ] :red_circle: address jeff's comments no hurry
+  - [ ] :red_circle: address jeff's comments
     - [ ] reform the table
     - [ ] replot the pies
 
@@ -232,7 +232,7 @@ chiproject
   - [ ] NIH Commons ID
   - [x] update betsy ssgsea commands
   - [x] update R container in .genomicoderc
-  - [ ] :red_circle: report timesheet​
+  - [x] report timesheet​
 
 **scripts availability**
 
