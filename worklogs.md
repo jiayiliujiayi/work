@@ -27,10 +27,10 @@
       - [x] split the svm _notes: jeff said he will solve it_
       - [x] rerun pyclone (svm sample id issue solved) and wrap up, both 50x and 150x
       - [x] wrap up after svm sample id issue solved
-      - [ ] :red_circle:rerun pyclone using higher cellularity samples _running_
+      - [x] rerun pyclone using higher cellularity samples _running_
   - misc
     - [x] ask jeff about the cancer Umap clustering scripts
-      - [ ] :red_circle:run the scripts and check the clusters
+      - [x] run the scripts and check the clusters
     - [x] send jeff the input, scripts and output of pyclone.  
   
 - **BRST006**  
@@ -53,7 +53,7 @@
       - [x] rerun pyclone (svm sample id issue solved) 
         - [x] rerun 150x using unfiltered mutations call
         - [x] wrap up, both 50x and 150x
-        - [ ] :red_circle: rerun pyclone, using higher cellularity​ _running_
+        - [x] rerun pyclone, using higher cellularity​ _running_
   
 - **BRST007**  
   ……  
@@ -83,12 +83,12 @@
       - [x] scores ==> betsy seurat umap (disp, vst) **running**
       - [x] zinbwave scores ==> betsy seurat umap (disp, vst) 
         - [x] do zinbwave
-        - [ ] :red_circle:run umap
+        - [x] ~~run umap~~
     - [ ] 
   - cancer genotypes
     - [x] pyclone
-    - [ ] :red_circle: rerun pyclone​ (svm sample id issue solved), 150x _running_
-    - [ ] :red_circle: wrap up​ 
+    - [x] rerun pyclone​ (svm sample id issue solved), 150x _running_
+    - [x] wrap up​ 
   - misc
     - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
   
