@@ -19,6 +19,7 @@
   - cancer phenotypes
     - [x] Pareto  
     - [ ] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
+    - [ ] zinbwave es.ss de by sites
   - cancer genotypes
     - [x] pyclone
       - [x] trying another 150x session ~4k mutations
@@ -92,28 +93,36 @@
   - misc
     - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
   
-- **BRST002**
+- **BRST007.new**
   
+  _notes: hg19 as gtf when proprocessing the raw data_
+  
+  - qc
+  - split cancer normal
+    - [ ] infercnv
+  
+- **BRST002**
+
   - qc
     - [x] compare kallisto vs cellranger
       - [x] compare unfiltered
       - [ ] compare filtered 
     - [x] filter cells
     - [x] filtered_umap _notes: clustered by sample_
-      - [ ] so try find umap loadings from 4/6/4&6 (de by celltype) _running_
-      - [ ] :red_circle:use the loadings as the features for clustering 
+      - [x] so try find umap loadings from 4/6/4&6 (de by celltype) _running_
+      - [x] use the loadings as the features for clustering _not working_
     - [x] filtered_tsne and plot _notes: same as in umap_
     - [x] filtered SingleR annotation
   - [x] split normal from cancer (infercnv) 
     - [x] xuan regress celltype 
-      - [ ] :red_circle:infercnv _running_
+      - [x] infercnv _running_ _similar to fibroref_
     - [x] ref macrophage&fibroblasts
   - normal 
   - cancer phenotype
   - cancer genotype
-  
+
 - combined analysis
-  
+
   - [x] check if batch effects in es.ss between 004 and 6
     
     - [x] yes
@@ -170,13 +179,12 @@
           - [x] try subset 007 then run CCA
       - [ ] 5.5 pathway CCA, seuratumap, cancer+immune
       - [ ] 4 pareto
-      - [ ] 8 
     
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
     - [x] compare before and after distribution 
     - [x] if satisfiedly corrected, then umap on the corrected one
-  
+
 - wrapups  
   - [x] patient PMH  
     - [x] 007 PMH not available
