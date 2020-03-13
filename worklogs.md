@@ -19,7 +19,7 @@
   - cancer phenotypes
     - [x] Pareto  
     - [ ] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
-    - [ ] zinbwave es.ss de by sites
+    - [ ] :red_circle:zinbwave es.ss de by sites
   - cancer genotypes
     - [x] pyclone
       - [x] trying another 150x session ~4k mutations
@@ -99,7 +99,7 @@
   
   - qc
   - split cancer normal
-    - [ ] infercnv
+    - [x] infercnv
   
 - **BRST002**
 
@@ -121,7 +121,15 @@
   - cancer phenotype
   - cancer genotype
 
-- combined analysis
+- **BRST002.new**
+
+  - qc
+    - [ ] qc
+    - [ ] infercnv
+  - cancer phenotypes
+  - cancer genotypes
+
+- **combined analysis**
 
   - [x] check if batch effects in es.ss between 004 and 6
     
