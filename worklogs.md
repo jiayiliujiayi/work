@@ -125,7 +125,11 @@
 
   - qc
     - [ ] qc
+    - [ ] singler 
     - [ ] infercnv
+      - [ ] fibroref _running_
+      - [ ] random macrophage ref _waiting for singler_
+      - [ ] sub filtered _running_
   - cancer phenotypes
   - cancer genotypes
 
