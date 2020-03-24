@@ -124,12 +124,13 @@
 - **BRST002.new**
 
   - qc
-    - [ ] qc
-    - [ ] singler 
+    - [x] qc
+    - [x] singler 
+    - [x] xuan regressed celltypes
     - [ ] infercnv
-      - [ ] fibroref _running_
-      - [ ] random macrophage ref _waiting for singler_
-      - [ ] sub filtered _running_
+      - [x] fibroref _running_
+      - [x] random macrophage ref _waiting for singler_
+      - [x] sub filtered _running_
   - cancer phenotypes
   - cancer genotypes
 
@@ -204,9 +205,9 @@
   - [x] schematic workflow
   - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
   - [x] check the .Key file: schematic@formalin fixation
-  - [ ] :red_circle: address jeff's comments
-    - [ ] reform the table
-    - [ ] replot the pies
+  - [x] address jeff's comments
+    - [x] reform the table
+    - [ ] :red_circle:replot the pies
 
 ------
 **sscontest**
