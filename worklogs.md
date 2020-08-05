@@ -239,6 +239,12 @@ chiproject
 
 
 
+###misc
+
+- [ ] update timekiller: 
+  - [ ] cor.mtest: output a matrix of p values from the cor.test
+  - [ ] write.gmt
+
 
 
 Non-lab
