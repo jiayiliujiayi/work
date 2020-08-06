@@ -135,11 +135,21 @@
 #### BRST013
 
 - [x] standard pipelines
+
   - [x] infercnv _comment: very good seperation of the cell clusters_
-  - [x] umap _comment: very good seperation of the cells clusters, mainly clustered by singler annotations_
+
+  - [x] umap 
+
+    _comment: very good seperation of the cells clusters, mainly clustered by singler annotations_
+
+    _comment2: epithelial cells are clustered by if they are pleural effusion cells_
+
   - [x] singler
+
 - [x] cancer
+
   - [x] pareto: find the genes enriched near each vertex
+
 - [ ] normal
 
 
