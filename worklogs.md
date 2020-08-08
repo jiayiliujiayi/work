@@ -168,6 +168,10 @@
 
 #### integrating all the patients
 
+ - [ ] patient info
+    - [ ] update events
+ - [ ] sequencing info
+    - [ ] update number of cells
  - [ ] CCA
    	- [ ] integrate 004, 6, 7, 11 and 13
  - [ ] combine all the pareto results
@@ -175,8 +179,16 @@
        - [x] ssgsea (zinbwave corrected counts)
        - [x] correlate genesets
        - [x] correlate genesets with archetypes
-    - [ ] curate more genesets from 4, 6, 7, 11 and 13 _totally 24, split 13 by if pleural or not._
+    - [x] curate more genesets from 4, 6, 7, 11 and 13 _totally 24, split BRST013 by if pleural or not._
       	- [x] ssgsea (zinbwave corrected counts)
+      	- [x] correlate genesets by patient _comment: correlations are pretty consistent throughout patients_
+      	- [x] cluster the genesets by patient _comment: clusters are pretty consistent throughout patients_
+   	- [x] curate 6 genesets from 5 patients
+    - [ ] curate genesets based on variance per
+       - [ ] gather
+       - [ ] ssgsea (zinbwave corrected count)
+       - [ ] correlate archetypes
+       - [ ] 
 
 ------
 **sscontest**
@@ -251,6 +263,7 @@ chiproject
 
 ###misc
 
+- [ ] email aritro: group lasso
 - [ ] update timekiller: 
   - [ ] cor.mtest: output a matrix of p values from the cor.test
   - [ ] write.gmt
@@ -258,7 +271,3 @@ chiproject
 
 
 Non-lab
-
-- [x] kaming methods & scripts
-  - [x] reproduce
-  - [x] manuscripts
