@@ -83,7 +83,7 @@
       - [x] send UMAP plots on counts respectively
     - [x] try harmony
       - [x] walkthrough (functions "cosine_" not installed)
-        - [ ] ~~submit github issue~~ _no responses yet_
+        - [x] ~~submit github issue~~ _no responses yet_
       - [x] jeff trying subsets
       - [x] on all types of cells (immune+cancer?)
         - [x] raw counts as input
@@ -175,6 +175,7 @@
  - [ ] CCA
    	- [ ] integrate 004, 6, 7, 11 and 13
  - [ ] combine all the pareto results
+    - [ ] send  weina specificity, sensitivity and expr
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
        - [x] correlate genesets
@@ -183,9 +184,9 @@
       	- [x] ssgsea (zinbwave corrected counts)
       	- [x] correlate genesets by patient _comment: correlations are pretty consistent throughout patients_
       	- [x] cluster the genesets by patient _comment: clusters are pretty consistent throughout patients_
-   	- [x] curate 6 genesets from 5 patients
-    - [ ] curate genesets based on variance per
-       - [ ] gather
+    - [x] curate 6 genesets from 5 patients
+    - [x] curate genesets: select the lowest variance per k
+       - [x] gather
        - [ ] ssgsea (zinbwave corrected count)
        - [ ] correlate archetypes
        - [ ] 
@@ -271,3 +272,4 @@ chiproject
 
 
 Non-lab
+
