@@ -173,9 +173,10 @@
  - [ ] sequencing info
     - [ ] update number of cells
  - [ ] CCA
-   	- [ ] integrate 004, 6, 7, 11 and 13
+   	- [x] integrate 004, 6, 7, 11 and 13
+   	- [ ] check the quality of integration:red_circle:
  - [ ] combine all the pareto results
-    - [ ] send  weina specificity, sensitivity and expr
+    - [ ] send  weina specificity, sensitivity and expr:red_circle::red_circle:
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
        - [x] correlate genesets
