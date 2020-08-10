@@ -174,7 +174,7 @@
     - [ ] update number of cells
  - [ ] CCA
    	- [x] integrate 004, 6, 7, 11 and 13
-   	- [ ] check the quality of integration:red_circle:
+   	- [x] check the quality of integration
  - [ ] combine all the pareto results
     - [ ] send  weina specificity, sensitivity and expr:red_circle::red_circle:
     - [x] curate 6 genesets from 004, 006 and 007,
@@ -186,8 +186,11 @@
       	- [x] correlate genesets by patient _comment: correlations are pretty consistent throughout patients_
       	- [x] cluster the genesets by patient _comment: clusters are pretty consistent throughout patients_
     - [x] curate 6 genesets from 5 patients
-    - [x] curate genesets: select the lowest variance per k
-       - [x] gather
+       - [x] ssgsea (zinbwave corrected count)
+       - [x] correlate archetypes
+    - [ ] pareto: select the k with the lowest variance
+       - [ ] curate genesets: select the lowest variance per k
+       - [ ] gather
        - [ ] ssgsea (zinbwave corrected count)
        - [ ] correlate archetypes
        - [ ] 
