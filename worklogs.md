@@ -144,6 +144,8 @@
 
     _comment2: epithelial cells are clustered by if they are pleural effusion cells_
 
+    - [x] UMAP:  pleural and non pleural respectively
+
   - [x] singler
 
 - [x] cancer
@@ -169,14 +171,17 @@
 #### integrating all the patients
 
  - [ ] patient info
+     - [ ] imaging progression pending :red_circle: ask Pat and Jeff​
     - [ ] update events
  - [ ] sequencing info
     - [ ] update number of cells
- - [ ] CCA
+ - [x] CCA
    	- [x] integrate 004, 6, 7, 11 and 13
-   	- [ ] check the quality of integration:red_circle:
+   	- [x] umap the counts before CCA, send to Jeff
+   	- [x] check the quality of integration
  - [ ] combine all the pareto results
-    - [ ] send  weina specificity, sensitivity and expr:red_circle::red_circle:
+    - [x] send  weina specificity, sensitivity and expr:red_circle::red_circle: _comment: sent the 3 patient cca results_
+    - [ ] pareto on cca integrated counts 5 patients and send jeff
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
        - [x] correlate genesets
@@ -186,11 +191,14 @@
       	- [x] correlate genesets by patient _comment: correlations are pretty consistent throughout patients_
       	- [x] cluster the genesets by patient _comment: clusters are pretty consistent throughout patients_
     - [x] curate 6 genesets from 5 patients
-    - [x] curate genesets: select the lowest variance per k
-       - [x] gather
+       - [x] ssgsea (zinbwave corrected count)
+       - [x] correlate archetypes
+    - [ ] pareto: select the k with the lowest variance
+       - [ ] curate genesets: select the lowest variance per k
+       - [ ] gather
        - [ ] ssgsea (zinbwave corrected count)
        - [ ] correlate archetypes
-       - [ ] 
+    - [ ] pareto & group lasso
 
 ------
 **sscontest**
@@ -265,7 +273,7 @@ chiproject
 
 ###misc
 
-- [ ] email aritro: group lasso
+- [x] email aritro: group lasso
 - [ ] update timekiller: 
   - [ ] cor.mtest: output a matrix of p values from the cor.test
   - [ ] write.gmt
