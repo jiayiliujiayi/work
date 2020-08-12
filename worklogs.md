@@ -171,7 +171,7 @@
 #### integrating all the patients
 
  - [ ] patient info
-     - [ ] imaging progression pending :red_circle: ask Pat and Jeff​
+     - [ ] imaging progression pending :red_circle: asked Pat and Jeff​
     - [ ] update events
  - [ ] sequencing info
     - [ ] update number of cells
@@ -179,9 +179,11 @@
    	- [x] integrate 004, 6, 7, 11 and 13
    	- [x] umap the counts before CCA, send to Jeff
    	- [x] check the quality of integration
- - [ ] combine all the pareto results
-    - [x] send  weina specificity, sensitivity and expr:red_circle::red_circle: _comment: sent the 3 patient cca results_
-    - [ ] pareto on cca integrated counts 5 patients and send jeff
+ - [x] combine all the pareto results
+    - [x] send  weina specificity, sensitivity and expr _comment: sent the 3 patient cca results_
+    - [x] pareto on cca integrated counts 5 patients and send jeff
+       - [ ] diff exp among 5 archetypes and generalists
+       - [ ] send weina  the result of this session
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
        - [x] correlate genesets
