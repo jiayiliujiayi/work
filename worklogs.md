@@ -171,7 +171,7 @@
 #### integrating all the patients
 
  - [ ] patient info
-     - [ ] imaging progression pending :red_circle: asked Pat and Jeff​
+     - [ ] imaging progression pending :red_circle: asked Pat
     - [ ] update events
  - [ ] sequencing info
     - [ ] update number of cells
