@@ -126,6 +126,7 @@
 
 - [x] standard pipelines
   - [x] infercnv _comment: very good seperation of the cell clusters_
+  - [ ] mutations pending
   - [x] umap _comment: very good seperation of the cells clusters, mainly clustered by singler annotations_
   - [x] singler
 - [x] cancer
@@ -137,6 +138,8 @@
 - [x] standard pipelines
 
   - [x] infercnv _comment: very good seperation of the cell clusters_
+
+  - [ ] mutations pending
 
   - [x] umap 
 
