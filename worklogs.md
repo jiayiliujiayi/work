@@ -126,7 +126,7 @@
 
 - [x] standard pipelines
   - [x] infercnv _comment: very good seperation of the cell clusters_
-  - [ ] mutations pending
+  - [x] mutations 
   - [x] umap _comment: very good seperation of the cells clusters, mainly clustered by singler annotations_
   - [x] singler
 - [x] cancer
@@ -139,7 +139,7 @@
 
   - [x] infercnv _comment: very good seperation of the cell clusters_
 
-  - [ ] mutations pending
+  - [x] mutations
 
   - [x] umap 
 
@@ -173,6 +173,7 @@
 
 #### integrating all the patients
 
+ - [ ] email mark and Jeff the normal UMAP, plots, singler and immuclassifier and marker gene levels
  - [ ] patient info
      - [ ] imaging progression pending :red_circle: asked Pat
     - [ ] update events
@@ -182,9 +183,9 @@
    	- [x] integrate 004, 6, 7, 11 and 13
    	- [x] umap the counts before CCA, send to Jeff
    	- [x] check the quality of integration
- - [x] combine all the pareto results
+ - [x] Pareto
     - [x] send  weina specificity, sensitivity and expr _comment: sent the 3 patient cca results_
-    - [x] pareto on cca integrated counts 5 patients and send jeff
+    - [x] pareto on cca integrated counts 5 patients and send jeff (final)
        - [ ] diff exp among 5 archetypes and generalists
        - [ ] send weina  the result of this session
     - [x] curate 6 genesets from 004, 006 and 007,
@@ -198,12 +199,14 @@
     - [x] curate 6 genesets from 5 patients
        - [x] ssgsea (zinbwave corrected count)
        - [x] correlate archetypes
-    - [ ] pareto: select the k with the lowest variance
-       - [ ] curate genesets: select the lowest variance per k
-       - [ ] gather
-       - [ ] ssgsea (zinbwave corrected count)
-       - [ ] correlate archetypes
+    - [x] pareto: select the k with the lowest variance
+       - [x] curate genesets: select the lowest variance per k
+       - [x] gather
+       - [x] ssgsea (zinbwave corrected count)
+       - [x] correlate archetypes
     - [ ] pareto & group lasso
+- [ ] progression patterns
+    - [ ] archetype (from pareto) vs progression patterns (late or normal)
 
 ------
 **sscontest**
