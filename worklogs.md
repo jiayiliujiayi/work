@@ -173,12 +173,20 @@
 
 #### integrating all the patients
 
- - [ ] email mark and Jeff the normal UMAP, plots, singler and immuclassifier and marker gene levels
+ - [x] email mark and Jeff the normal UMAP, plots, singler and immuclassifier and marker gene levels
+ - [ ] update cell metadata
+     - [x] original metadata
+     - [x] singler annotation (hpca)
+     - [x] cancer or not
+     - [ ] number of variants
+     - [ ] pattern (late bloomer or other pattern) _pending, ask Pat_
+     - [ ] DxTime
+     - [ ] Event at the timpoint of Dx? eg Tx?
  - [ ] patient info
      - [ ] imaging progression pending :red_circle: asked Pat
     - [ ] update events
- - [ ] sequencing info
-    - [ ] update number of cells
+ - [x] sequencing info
+    - [x] update number of cells
  - [x] CCA
    	- [x] integrate 004, 6, 7, 11 and 13
    	- [x] umap the counts before CCA, send to Jeff
@@ -187,6 +195,8 @@
     - [x] send  weina specificity, sensitivity and expr _comment: sent the 3 patient cca results_
     - [x] pareto on cca integrated counts 5 patients and send jeff (final)
        - [ ] diff exp among 5 archetypes and generalists
+       - [ ] curate 5 genesets
+       - [ ] ssgsea
        - [ ] send weina  the result of this session
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
@@ -282,9 +292,12 @@ chiproject
 ###misc
 
 - [x] email aritro: group lasso
-- [ ] update timekiller: 
-  - [ ] cor.mtest: output a matrix of p values from the cor.test
-  - [ ] write.gmt
+- [x] test diff exp
+  - [x] counts _error pending, have sent jeff the email_
+  - [x] ssgsea
+- [x] update timekiller: 
+  - [x] cor.mtest: output a matrix of p values from the cor.test
+  - [x] write.gmt
 
 
 
