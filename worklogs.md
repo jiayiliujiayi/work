@@ -298,6 +298,7 @@ chiproject
 - [x] update timekiller: 
   - [x] cor.mtest: output a matrix of p values from the cor.test
   - [x] write.gmt
+  - [ ] markers
 
 
 
