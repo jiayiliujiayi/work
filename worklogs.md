@@ -15,6 +15,7 @@
 
 - normal
   - immune
+    - [ ] immclassifier :red_circle:
     - [x] prepare immune counts
     - [x] ~~ask small sister to run ImmClass~~ used singleR instead because its annotations matches up better with the immune marker levels.  
 - cancer phenotypes
@@ -122,6 +123,9 @@
 
 - [ ] try tirosh copy number calling pipeline to match up with the infercnv :red_circle:
 
+  - normal
+    - [ ] immclassifier :red_circle:
+
 #### BRST011
 
 - [x] standard pipelines
@@ -132,6 +136,7 @@
 - [x] cancer
   - [x] pareto: find the genes enriched near each vertex
 - [ ] normal
+  - [ ] immclassifier :red_circle:
 
 #### BRST013
 
@@ -156,6 +161,8 @@
   - [x] pareto: find the genes enriched near each vertex
 
 - [ ] normal
+
+  - [ ] immclassifier :red_circle:
 
 
 
@@ -194,9 +201,10 @@
  - [x] Pareto
     - [x] send  weina specificity, sensitivity and expr _comment: sent the 3 patient cca results_
     - [x] pareto on cca integrated counts 5 patients and send jeff (final)
-       - [ ] diff exp among 5 archetypes and generalists
-       - [ ] curate 5 genesets
-       - [ ] ssgsea
+       - [x] diff exp among 5 archetypes and generalists
+       - [x] curate 5 genesets
+       - [x] ssgsea 
+    - [ ] heatmap of 5 geneset scores, colored patient IDs :red_circle:
        - [ ] send weina  the result of this session
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
@@ -216,7 +224,8 @@
        - [x] correlate archetypes
     - [ ] pareto & group lasso
 - [ ] progression patterns
-    - [ ] archetype (from pareto) vs progression patterns (late or normal)
+    - [x] archetype (from pareto) vs progression patterns (late or normal)
+    - [ ] phenotype (from ssgsea scores, geneset curated from pareto on cca'd cancer counts) vs progression patterns
 
 ------
 **sscontest**
@@ -264,6 +273,7 @@ chiproject
 **error reports**
 
 - [x] betsy tsne errors _notes: more efficient module, e.g., 21,000 genes x 11,000 cells usually took > 48h to finish.  After the update it takes 56min :))_
+- [x] immclassifier error
 
 ### meeting
 
