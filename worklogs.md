@@ -15,6 +15,7 @@
 
 - normal
   - immune
+    - [ ] immclassifier :red_circle:
     - [x] prepare immune counts
     - [x] ~~ask small sister to run ImmClass~~ used singleR instead because its annotations matches up better with the immune marker levels.  
 - cancer phenotypes
@@ -29,6 +30,7 @@
 
 - normal
   - immune
+    - [ ] immclassifier :red_circle:
     - [x] prepare immune counts
     - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
 - cancer phenotypes
@@ -122,21 +124,28 @@
 
 - [ ] try tirosh copy number calling pipeline to match up with the infercnv :red_circle:
 
+  - normal
+    - [ ] immclassifier :red_circle:
+
 #### BRST011
 
 - [x] standard pipelines
   - [x] infercnv _comment: very good seperation of the cell clusters_
+  - [x] mutations 
   - [x] umap _comment: very good seperation of the cells clusters, mainly clustered by singler annotations_
   - [x] singler
 - [x] cancer
   - [x] pareto: find the genes enriched near each vertex
 - [ ] normal
+  - [ ] immclassifier :red_circle:
 
 #### BRST013
 
 - [x] standard pipelines
 
   - [x] infercnv _comment: very good seperation of the cell clusters_
+
+  - [x] mutations
 
   - [x] umap 
 
@@ -154,6 +163,8 @@
 
 - [ ] normal
 
+  - [ ] immclassifier :red_circle:
+
 
 
 #### wrapups  
@@ -170,19 +181,31 @@
 
 #### integrating all the patients
 
+ - [x] email mark and Jeff the normal UMAP, plots, singler and immuclassifier and marker gene levels
+ - [ ] update cell metadata
+     - [x] original metadata
+     - [x] singler annotation (hpca)
+     - [x] cancer or not
+     - [ ] number of variants
+     - [ ] pattern (late bloomer or other pattern) _pending, ask Pat_
+     - [ ] DxTime
+     - [ ] Event at the timpoint of Dx? eg Tx?
  - [ ] patient info
-     - [ ] imaging progression pending :red_circle: asked Pat and Jeff​
+     - [ ] imaging progression pending :red_circle: asked Pat
     - [ ] update events
- - [ ] sequencing info
-    - [ ] update number of cells
+ - [x] sequencing info
+    - [x] update number of cells
  - [x] CCA
    	- [x] integrate 004, 6, 7, 11 and 13
    	- [x] umap the counts before CCA, send to Jeff
    	- [x] check the quality of integration
- - [x] combine all the pareto results
+ - [x] Pareto
     - [x] send  weina specificity, sensitivity and expr _comment: sent the 3 patient cca results_
-    - [x] pareto on cca integrated counts 5 patients and send jeff
-       - [ ] diff exp among 5 archetypes and generalists
+    - [x] pareto on cca integrated counts 5 patients and send jeff (final)
+       - [x] diff exp among 5 archetypes and generalists
+       - [x] curate 5 genesets
+       - [x] ssgsea 
+    - [ ] heatmap of 5 geneset scores, colored patient IDs :red_circle:
        - [ ] send weina  the result of this session
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
@@ -195,12 +218,15 @@
     - [x] curate 6 genesets from 5 patients
        - [x] ssgsea (zinbwave corrected count)
        - [x] correlate archetypes
-    - [ ] pareto: select the k with the lowest variance
-       - [ ] curate genesets: select the lowest variance per k
-       - [ ] gather
-       - [ ] ssgsea (zinbwave corrected count)
-       - [ ] correlate archetypes
+    - [x] pareto: select the k with the lowest variance
+       - [x] curate genesets: select the lowest variance per k
+       - [x] gather
+       - [x] ssgsea (zinbwave corrected count)
+       - [x] correlate archetypes
     - [ ] pareto & group lasso
+- [ ] progression patterns
+    - [x] archetype (from pareto) vs progression patterns (late or normal)
+    - [ ] phenotype (from ssgsea scores, geneset curated from pareto on cca'd cancer counts) vs progression patterns
 
 ------
 **sscontest**
@@ -248,6 +274,7 @@ chiproject
 **error reports**
 
 - [x] betsy tsne errors _notes: more efficient module, e.g., 21,000 genes x 11,000 cells usually took > 48h to finish.  After the update it takes 56min :))_
+- [x] immclassifier error
 
 ### meeting
 
@@ -276,9 +303,13 @@ chiproject
 ###misc
 
 - [x] email aritro: group lasso
-- [ ] update timekiller: 
-  - [ ] cor.mtest: output a matrix of p values from the cor.test
-  - [ ] write.gmt
+- [x] test diff exp
+  - [x] counts _error pending, have sent jeff the email_
+  - [x] ssgsea
+- [x] update timekiller: 
+  - [x] cor.mtest: output a matrix of p values from the cor.test
+  - [x] write.gmt
+  - [ ] markers
 
 
 
