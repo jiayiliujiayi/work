@@ -205,7 +205,8 @@
        - [x] diff exp among 5 archetypes and generalists
        - [x] curate 5 genesets
        - [x] ssgsea 
-    - [ ] heatmap of 5 geneset scores, colored patient IDs :red_circle:
+    - [x] heatmap of 5 geneset scores, colored patient IDs 
+    - [ ] discuss with jeff about next steps:red_circle:
        - [ ] send weina  the result of this session
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)

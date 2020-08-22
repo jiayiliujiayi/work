@@ -6,6 +6,7 @@
 
 ## codes  
 - [codepen](https://codepen.io)
+- [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/)
 
 ## graphics  
 - [ASCII Art Archive](https://www.asciiart.eu)  
