@@ -204,6 +204,8 @@
     - [x] pareto on cca integrated counts 5 patients and send jeff (final)
        - [x] diff exp among 5 archetypes and generalists
        - [x] curate 5 genesets
+         - [x] by logFC/logFDR
+         - [x] by selection c(0, 1) send to Jeff:red_circle:
        - [x] ssgsea 
     - [x] heatmap of 5 geneset scores, colored patient IDs 
     - [ ] discuss with jeff about next steps:red_circle:
