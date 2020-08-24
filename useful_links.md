@@ -6,12 +6,14 @@
 
 ## codes  
 - [codepen](https://codepen.io)
+- [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/)
 
 ## graphics  
 - [ASCII Art Archive](https://www.asciiart.eu)  
 - [ASCII Art Generator](https://asciiart.club)  
 - [Christopher Johnson's ASCII Art Collection](https://asciiart.website/index.php)  
 - [nice eg of plotly piecharts](https://stackoverflow.com/questions/44436214/ggplot-pie-chart-labeling/44436446?stw=2#44436446)
+- [**ggplot2 extensions** - gallery](https://exts.ggplot2.tidyverse.org/gallery/)
 
 ## markdown
 
