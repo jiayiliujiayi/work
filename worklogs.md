@@ -208,7 +208,8 @@
          - [x] by selection c(0, 1) send to Jeff:red_circle:
        - [x] ssgsea 
     - [x] heatmap of 5 geneset scores, colored patient IDs 
-    - [ ] discuss with jeff about next steps:red_circle:
+    - [x] heatmap of genes and cells, both colored by archetypes :star:
+    - [x] discuss with jeff about next steps
        - [ ] send weina  the result of this session
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
