@@ -182,6 +182,7 @@
 #### integrating all the patients
 
  - [x] email mark and Jeff the normal UMAP, plots, singler and immuclassifier and marker gene levels
+ - [x] piecharts of celltypes: cancer normal types, per patient
  - [ ] update cell metadata
      - [x] original metadata
      - [x] singler annotation (hpca)
@@ -205,12 +206,14 @@
        - [x] diff exp among 5 archetypes and generalists
        - [x] curate 5 genesets
          - [x] by logFC/logFDR
-         - [x] by selection c(0, 1) send to Jeff:red_circle:
-       - [x] ssgsea 
+         - [x] by selection c(0, 1)
+     - [x] by variable features
+     - [ ] shared by variable and logfc
+       - [ ] ssgsea 
     - [x] heatmap of 5 geneset scores, colored patient IDs 
     - [x] heatmap of genes and cells, both colored by archetypes :star:
     - [x] discuss with jeff about next steps
-       - [ ] send weina  the result of this session
+       - [ ] send weina: the result of this session
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
        - [x] correlate genesets
