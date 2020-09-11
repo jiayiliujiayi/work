@@ -188,11 +188,11 @@
      - [x] singler annotation (hpca)
      - [x] cancer or not
      - [ ] number of variants
-     - [ ] pattern (late bloomer or other pattern) _pending, ask Pat_
+     - [ ] pattern (late bloomer or other pattern) 
      - [ ] DxTime
      - [ ] Event at the timpoint of Dx? eg Tx?
  - [ ] patient info
-     - [ ] imaging progression pending :red_circle: asked Pat
+     - [x] imaging progression pending 
     - [ ] update events
  - [x] sequencing info
     - [x] update number of cells
@@ -208,18 +208,19 @@
          - [x] by logFC/logFDR
          - [x] by selection c(0, 1)
      - [x] by variable features
-     - [ ] shared by variable and logfc
-       - [ ] ssgsea 
+     - [x] shared by variable and logfc
+       - [x] ssgsea 
     - [x] heatmap of 5 geneset scores, colored patient IDs 
     - [x] heatmap of genes and cells, both colored by archetypes :star:
     - [x] discuss with jeff about next steps
-       - [ ] send weina: the result of this session
+       - [x] send weina: the result of this session
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
        - [x] correlate genesets
        - [x] correlate genesets with archetypes
     - [x] curate more genesets from 4, 6, 7, 11 and 13 _totally 24, split BRST013 by if pleural or not._
       	- [x] ssgsea (zinbwave corrected counts)
+      	- [ ] curate shared archetypes by 3 selection methods (cca.counts, raw.counts(lcpm), )
       	- [x] correlate genesets by patient _comment: correlations are pretty consistent throughout patients_
       	- [x] cluster the genesets by patient _comment: clusters are pretty consistent throughout patients_
     - [x] curate 6 genesets from 5 patients
@@ -309,6 +310,7 @@ chiproject
 
 ###misc
 
+- [x] immclassifier scores --> notice xuan:red_circle:
 - [x] email aritro: group lasso
 - [x] test diff exp
   - [x] counts _error pending, have sent jeff the email_
