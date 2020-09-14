@@ -182,6 +182,12 @@
 #### integrating all the patients
 
  - [x] email mark and Jeff the normal UMAP, plots, singler and immuclassifier and marker gene levels
+     - [ ] MACROPHAGES
+         - [x] integration
+         - [x] umap
+         - [x] ssgsea-z c7
+         - [x] de - genes - umap
+         - [ ] de c7 scores -umap
  - [x] piecharts of celltypes: cancer normal types, per patient
  - [ ] update cell metadata
      - [x] original metadata
