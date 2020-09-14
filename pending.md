@@ -1,6 +1,6 @@
 09.10
 
-- [ ] 002 tirosh pipeline
+- [x] 002 tirosh pipeline
 
 
 
