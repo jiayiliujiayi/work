@@ -182,17 +182,25 @@
 #### integrating all the patients
 
  - [x] email mark and Jeff the normal UMAP, plots, singler and immuclassifier and marker gene levels
+     - [ ] MACROPHAGES
+         - [x] integration
+         - [x] umap
+         - [x] ssgsea-z c7
+         - [x] de - genes - umap
+         - [ ] de c7 scores -umap
+ - [x] piecharts of celltypes: cancer normal types, per patient
  - [ ] update cell metadata
      - [x] original metadata
      - [x] singler annotation (hpca)
      - [x] cancer or not
      - [ ] number of variants
-     - [ ] pattern (late bloomer or other pattern) _pending, ask Pat_
-     - [ ] DxTime
+     - [x] pattern (late bloomer or other pattern) 
+     - [x] DxTime
      - [ ] Event at the timpoint of Dx? eg Tx?
  - [ ] patient info
-     - [ ] imaging progression pending :red_circle: asked Pat
+     - [x] imaging progression pending 
     - [ ] update events
+    - [x] update death time
  - [x] sequencing info
     - [x] update number of cells
  - [x] CCA
@@ -205,18 +213,23 @@
        - [x] diff exp among 5 archetypes and generalists
        - [x] curate 5 genesets
          - [x] by logFC/logFDR
-         - [x] by selection c(0, 1) send to Jeff:red_circle:
+         - [x] by selection c(0, 1)
+     - [x] by variable features
+     - [x] shared by variable and logfc
        - [x] ssgsea 
     - [x] heatmap of 5 geneset scores, colored patient IDs 
     - [x] heatmap of genes and cells, both colored by archetypes :star:
     - [x] discuss with jeff about next steps
-       - [ ] send weina  the result of this session
+       - [x] send weina: the result of this session
     - [x] curate 6 genesets from 004, 006 and 007,
        - [x] ssgsea (zinbwave corrected counts)
        - [x] correlate genesets
        - [x] correlate genesets with archetypes
     - [x] curate more genesets from 4, 6, 7, 11 and 13 _totally 24, split BRST013 by if pleural or not._
       	- [x] ssgsea (zinbwave corrected counts)
+       - [x] curate shared archetypes by 3 selection methods (cca.counts, raw.counts(lcpm), )
+         	- [x] ssgsea
+         	- [x] archetype assignment:star:
       	- [x] correlate genesets by patient _comment: correlations are pretty consistent throughout patients_
       	- [x] cluster the genesets by patient _comment: clusters are pretty consistent throughout patients_
     - [x] curate 6 genesets from 5 patients
@@ -306,6 +319,7 @@ chiproject
 
 ###misc
 
+- [x] immclassifier scores --> notice xuan:red_circle:
 - [x] email aritro: group lasso
 - [x] test diff exp
   - [x] counts _error pending, have sent jeff the email_
@@ -313,7 +327,7 @@ chiproject
 - [x] update timekiller: 
   - [x] cor.mtest: output a matrix of p values from the cor.test
   - [x] write.gmt
-  - [ ] markers
+- [ ] new server 129.106.31.84
 
 
 

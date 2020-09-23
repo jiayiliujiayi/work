@@ -1,3 +1,42 @@
+09.22
+
+- [x] ssgsea yuan dataset: legacy geneset and pdx geneset
+  - [x] corr
+- [ ] de: de on macrophage related signatures, by umap cluster (raw counts, markers as features)
+- [ ] de: de on macrophage counts, by umap cluster (raw counts, markers as features)
+- [ ] ssgsea: c2 on macrophage; sig of interest: COATES_MACROPHAGE_M1_VS_M2_DN COATES_MACROPHAGE_M1_VS_M2_UP
+- [ ] pareto k = 7
+  - [ ] gather
+- [ ] PDS metadata asked Yuan
+
+
+
+09.19
+
+- [x] gather-curated arc genes
+
+
+
+09.14
+
+- [x] macrophage de c7 scores by umap clusters
+
+
+
+09.10
+
+- [x] 002 tirosh pipeline
+
+
+
+09.01
+
+- [x] gather
+- [x] macro diff exp by cluster
+- [x] macro ssgsea c7
+
+
+
 08.20
 
 - [x] 13 pleural ssgsea
@@ -6,7 +45,7 @@
 
 08.19
 
-- [ ] diff exp on cca'd counts
+- [x] diff exp on cca'd counts
 - [x] test immclassifier in temp.test,  5 cells
 - [x] immclassifier on cca'd normal ptprc positive cells
 - [ ] variance calling for 004
