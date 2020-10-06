@@ -2,212 +2,248 @@
 
 **general**
 
-- [x] summarize scripts: plot cnv using complexheatmap R3.4 (input "inferCNV.obs.txt" and "dendrongram.txt" (call phylogram::read.dendrogram) from R3.6 in .sif)
+- [x] summarize scripts: plot cnv using complexheatmap R3.4 (input "nferCNV.obs.txt" and "dendrongram.txt" (call phylogram::read.dendrogram) from R3.6 in .sif)
   ~~- [ ] or try Infercnv&complexheatmap in singluarity container? %after the container is done~~ notes: better not wrap two functions into one: gotta check the prelim cna & confirm the annotations before plotting  
 - [x] add gather scripts (ref: zhaoproject folder)
 
 ------
-**Legacy**  
+### legacy
 
-- **BRST004**  
-  ……  
-  
-  - normal
-    - immune
-      - [x] prepare immune counts
-      - [x] ~~ask small sister to run ImmClass~~ used singleR instead because its annotations matches up better with the immune marker levels.  
-  - cancer phenotypes
-    - [x] Pareto  
-    - [ ] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
-    - [ ] :red_circle:zinbwave es.ss de by sites
-  - cancer genotypes
-    - [x] pyclone
-      - [x] trying another 150x session ~4k mutations
-      - [x] try higher vaf, lower others
-      - [x] wrap up​
-      - [x] split the svm _notes: jeff said he will solve it_
-      - [x] rerun pyclone (svm sample id issue solved) and wrap up, both 50x and 150x
-      - [x] wrap up after svm sample id issue solved
-      - [x] rerun pyclone using higher cellularity samples _running_
-  - misc
-    - [x] ask jeff about the cancer Umap clustering scripts
-      - [x] run the scripts and check the clusters
-    - [x] send jeff the input, scripts and output of pyclone.  
-  
-- **BRST006**  
-  ……  
-  
-  - normal
-    - immune
-      - [x] prepare immune counts
-      - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
-  - cancer phenotypes
-    - [x] Pareto
-      - [x] on es.ss
-      - [ ] :red_circle:on counts (Seurat)
-  - cancer genotypes 
-    - [x] pyclone
-      - [x] try another 150x session ~1k mutations
-      - [x] ~~rap up​~~
-      - [x] higher vaf, lower others​ _notes: results similar to 1k mutations_
-      - [x] check allelfrequency
-      - [x] rerun pyclone (svm sample id issue solved) 
-        - [x] rerun 150x using unfiltered mutations call
-        - [x] wrap up, both 50x and 150x
-        - [x] rerun pyclone, using higher cellularity​ _running_
-  
-- **BRST007**  
-  ……  
-  
-  - rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
-  - seperate cancer from normal
-    - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then:_ 
-      - [x] discuss with jeff.  _notes: agreed on "the hclust 1 & 3 as cancers"_
-    - [x] infercnv sessions: "chr_exclude = NULL" to include ChrX
-      - [x] "ref = random macro & fibro" (running@uni:tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
-      - [x] "ref = fibroblasts" (running@uni: tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
-        - [x] finish the session
-        - [x] ~~update the hm with "chrX" shown~~ wait for small sister's results then update the hm
-      - [x] send jeff: small sister's data: annotated by 1. dendrogram from the original plot, 2. singler annotations, and 3. cancer+singler annotations
-    - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h; talked abt this with jeff, updated some files and now running in another session in another tmux)
-      - [x] send jeff the network.pdf
-      - [x] error from the  new tsne module reported
-      - [x] plot labeled by SampleIDs or infercnv hclusts. _notes: similar to the umap clusters: macrophages too close to epithelials_
-    - [x] locate filtered umap &rarr; not found... 
-      - [x] redo umap on the "filtered" ones
-    - [x] check PTPRC levels in the annotated "cancer"s &rarr; ~5% of which are PTPRC+
-    - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
-    - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
-  - cancer phenotypes
-    - [ ] cluster based
-      - [x] counts --> pca --> umap _notes: cluster by samples_
-      - [x] scores ==> betsy seurat umap (disp, vst) **running**
-      - [x] zinbwave scores ==> betsy seurat umap (disp, vst) 
-        - [x] do zinbwave
-        - [x] ~~run umap~~
-    - [ ] 
-  - cancer genotypes
-    - [x] pyclone
-    - [x] rerun pyclone​ (svm sample id issue solved), 150x _running_
-    - [x] wrap up​ 
-  - misc
-    - [ ] :red_circle: ask jeff about the cutoffs he used when presenting zinbwave norm es.ss.  
-  
-- **BRST007.new**
-  
-  _notes: hg19 as gtf when proprocessing the raw data_
-  
-  - qc
-  - split cancer normal
-    - [x] infercnv
-  
-- **BRST002**
+#### BRST004  
 
-  - qc
-    - [x] compare kallisto vs cellranger
-      - [x] compare unfiltered
-      - [ ] compare filtered 
-    - [x] filter cells
-    - [x] filtered_umap _notes: clustered by sample_
-      - [x] so try find umap loadings from 4/6/4&6 (de by celltype) _running_
-      - [x] use the loadings as the features for clustering _not working_
-    - [x] filtered_tsne and plot _notes: same as in umap_
-    - [x] filtered SingleR annotation
-  - [x] split normal from cancer (infercnv) 
-    - [x] xuan regress celltype 
-      - [x] infercnv _running_ _similar to fibroref_
-    - [x] ref macrophage&fibroblasts
-  - normal 
-  - cancer phenotype
-  - cancer genotype
+……  
 
-- **BRST002.new**
+- normal
+  - immune
+    - [ ] immclassifier :red_circle:
+    - [x] prepare immune counts
+    - [x] ~~ask small sister to run ImmClass~~ used singleR instead because its annotations matches up better with the immune marker levels.  
+- cancer phenotypes
+  - [x] Pareto  
+  - [x] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
+- cancer genotypes
+  - [x] pyclone
 
-  - qc
-    - [x] qc
-    - [x] singler 
-    - [x] xuan regressed celltypes
-    - [ ] infercnv
-      - [x] fibroref _running_
-      - [x] random macrophage ref _waiting for singler_
-      - [x] sub filtered _running_
-  - cancer phenotypes
-  - cancer genotypes
+#### BRST006  
 
-- **combined analysis**
+……  
 
+- normal
+  - immune
+    - [ ] immclassifier :red_circle:
+    - [x] prepare immune counts
+    - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
+- cancer phenotypes
+  - [x] Pareto
+- cancer genotypes 
+  - [x] pyclone
+
+#### BRST007  
+
+……  
+
+- rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
+- seperate cancer from normal
+  - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then:_ 
+    - [x] discuss with jeff.  _notes: agreed on "the hclust 1 & 3 as cancers"_
+  - [x] infercnv sessions: "chr_exclude = NULL" to include ChrX
+    - [x] "ref = random macro & fibro" (running@uni:tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
+    - [x] "ref = fibroblasts" (running@uni: tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
+      - [x] finish the session
+      - [x] ~~update the hm with "chrX" shown~~ wait for small sister's results then update the hm
+    - [x] send jeff: small sister's data: annotated by 1. dendrogram from the original plot, 2. singler annotations, and 3. cancer+singler annotations
+  - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h; talked abt this with jeff, updated some files and now running in another session in another tmux)
+    - [x] send jeff the network.pdf
+    - [x] error from the  new tsne module reported
+    - [x] plot labeled by SampleIDs or infercnv hclusts. _notes: similar to the umap clusters: macrophages too close to epithelials_
+  - [x] locate filtered umap &rarr; not found... 
+    - [x] redo umap on the "filtered" ones
+  - [x] check PTPRC levels in the annotated "cancer"s &rarr; ~5% of which are PTPRC+
+  - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
+  - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
+- cancer genotypes
+  - [x] pyclone
+
+- combined analysis
   - [x] check if batch effects in es.ss between 004 and 6
-    
     - [x] yes
   - [x] check QC for BRST004 or BRST006: nGenes, nReads, %mitochondria
-    
     - [x] email jeff the results
   - [x] email jeff: raw counts umap, combat umap, cca umap
-    
     - [x] run a umap on the concatenated raw counts
-  - [ ] :red_circle: wrap up corrections
+  - [x] wrap up corrections
     - [x] CCA:  
       - [x] CCA on the h.es.ss, then cluster
       - [x] CCA on counts then h.es.ss then cluster
-      
     - [x] ref to Tran et al 2020 paper to correct _notes: tried, not as good as we thought._  
-          - [x] try harmony: _velo:~/legacy/combinexxxx/cancer/harmony_demo_
+      - [x] try harmony: _velo:~/legacy/combinexxxx/cancer/harmony_demo_
             - [x] on two datasets: one with a small number of cells and the other large. ~1:5. 
             - [x] on two datasets: datapoints of two groups that are far from each other on the PCA.  
-          
-    - [x] on two datasets: one larger, one small, two far.  
-      
+            - [x] on two datasets: one larger, one small, two far.  
     - [x] talked to jeff: 
       - [x] send CCA plots on counts
-          - [x] send UMAP plots on counts respectively
-      
-    - [ ] try harmony
-          - [ ] walkthrough (functions "cosine_" not installed)
-            - [x] submit github issue
-          - [ ] jeff trying subsets
-          - [x] on all types of cells (immune+cancer?)
-            - [x] raw counts as input
-            - [x] es.ss as input
-          
-        - [x] try directy running UMAP/seurat umap/or PCA
-        
-          - [x] on combined ssgsea
-        
-            before: check
-        
-            - [x]  if batch effects in 004 _notes: no batch effect_
-        - [x] cluster vs samples of 006 _no batch effect_
-      
-      - [x] try seurat umap _notes: similar to umap package_
-      
-      - [x] ~~​try PCA~~
-      
-      - [x] try on zinbwave corrected​
-      
-    - [x] try 6 ways of clustering (pic taken)
-    
-      - [x] harmony on combined cancer counts
-      - [x] 5.3 counts CCA, seuratumap, all celltypes
-      - [x] 5.4 counts CCA, seuratumap, all celltypes 007 included _notes: too many 007, might squeeze the cells from other pats_
-          - [x] try subset 007 then run CCA
-      - [ ] 5.5 pathway CCA, seuratumap, cancer+immune
-      - [ ] 4 pareto
-    
+      - [x] send UMAP plots on counts respectively
+    - [x] try harmony
+      - [x] walkthrough (functions "cosine_" not installed)
+        - [x] ~~submit github issue~~ _no responses yet_
+      - [x] jeff trying subsets
+      - [x] on all types of cells (immune+cancer?)
+        - [x] raw counts as input
+        - [x] es.ss as input
   - [x] zinbwave correction on 4 and 6 (jeff's working on zinbwave in betsy)
     - [x] zinbwave corrections
     - [x] compare before and after distribution 
     - [x] if satisfiedly corrected, then umap on the corrected one
 
-- wrapups  
-  - [x] patient PMH  
-    - [x] 007 PMH not available
-    - [x] update 007 PMH
-  - [x] schematic workflow
-  - [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
-  - [x] check the .Key file: schematic@formalin fixation
-  - [x] address jeff's comments
-    - [x] reform the table
-    - [ ] :red_circle:replot the pies
+#### BRST002
+
+- [x] preprocessing
+
+  - [x] rna
+  - [x] premrna
+  - [x] cutoffs
+    - [x] 1k~10k feature, 10k~100k reads, <30 mito perc: 8.91% high quality cells
+    - [x] 1k~10k feature, 2k~10k reads, <30 mito perc: 1.84%
+    - [x] 1k~10k feature, 2k~100k reads, <30 mito perc: 10.76% 
+
+- [x] compare cellranger vs kallisto _comment: generally very similar_
+
+- [x] standard pipelines
+
+  - [x] infercnv _comment: very unclear clusters, cannot differenciate cancer/normal cells_
+
+    - [x] reference tried: fibroblasts, fibroblasts+hmec, fibroblasts+macrophages(annotated by singler), gtex breast, NULL 
+
+  - [x] singler annotation _comment: hpca does not match up with blueprint_
+
+  - [x] umap _comments: instead of clustering by cell types, cells are clustering by samples_
+
+    _comment: questioning whether the cells are mostly normal cells_ 
+
+  - [x] ssgsea (zinbwave corrected counts)
+
+- [ ] try tirosh copy number calling pipeline to match up with the infercnv :red_circle:
+
+  - normal
+    - [ ] immclassifier :red_circle:
+
+#### BRST011
+
+- [x] standard pipelines
+  - [x] infercnv _comment: very good seperation of the cell clusters_
+  - [x] mutations 
+  - [x] umap _comment: very good seperation of the cells clusters, mainly clustered by singler annotations_
+  - [x] singler
+- [x] cancer
+  - [x] pareto: find the genes enriched near each vertex
+- [ ] normal
+  - [ ] immclassifier :red_circle:
+
+#### BRST013
+
+- [x] standard pipelines
+
+  - [x] infercnv _comment: very good seperation of the cell clusters_
+
+  - [x] mutations
+
+  - [x] umap 
+
+    _comment: very good seperation of the cells clusters, mainly clustered by singler annotations_
+
+    _comment2: epithelial cells are clustered by if they are pleural effusion cells_
+
+    - [x] UMAP:  pleural and non pleural respectively
+
+  - [x] singler
+
+- [x] cancer
+
+  - [x] pareto: find the genes enriched near each vertex
+
+- [ ] normal
+
+  - [ ] immclassifier :red_circle:
+
+
+
+#### wrapups  
+
+- [x] patient PMH  
+  - [x] 007 PMH not available
+  - [x] update 007 PMH
+- [x] schematic workflow
+- [x] cell type table and piecharts ~~(ggplot)~~ notes: used [plotly-piecharts](https://plot.ly/r/pie-charts/) instead
+- [x] check the .Key file: schematic@formalin fixation
+- [x] address jeff's comments no hurry
+  - [x] reform the table
+  - [x] replot the pies
+
+#### integrating all the patients
+
+ - [x] email mark and Jeff the normal UMAP, plots, singler and immuclassifier and marker gene levels
+     - [ ] MACROPHAGES
+         - [x] integration
+         - [x] umap
+         - [x] ssgsea-z c7
+         - [x] de - genes - umap
+         - [ ] de c7 scores -umap
+ - [x] piecharts of celltypes: cancer normal types, per patient
+ - [ ] update cell metadata
+     - [x] original metadata
+     - [x] singler annotation (hpca)
+     - [x] cancer or not
+     - [ ] number of variants
+     - [x] pattern (late bloomer or other pattern) 
+     - [x] DxTime
+     - [ ] Event at the timpoint of Dx? eg Tx?
+ - [ ] patient info
+     - [x] imaging progression pending 
+    - [ ] update events
+    - [x] update death time
+ - [x] sequencing info
+    - [x] update number of cells
+ - [x] CCA
+   	- [x] integrate 004, 6, 7, 11 and 13
+   	- [x] umap the counts before CCA, send to Jeff
+   	- [x] check the quality of integration
+ - [x] Pareto
+    - [x] send  weina specificity, sensitivity and expr _comment: sent the 3 patient cca results_
+    - [x] pareto on cca integrated counts 5 patients and send jeff (final)
+       - [x] diff exp among 5 archetypes and generalists
+       - [x] curate 5 genesets
+         - [x] by logFC/logFDR
+         - [x] by selection c(0, 1)
+     - [x] by variable features
+     - [x] shared by variable and logfc
+       - [x] ssgsea 
+    - [x] heatmap of 5 geneset scores, colored patient IDs 
+    - [x] heatmap of genes and cells, both colored by archetypes :star:
+    - [x] discuss with jeff about next steps
+       - [x] send weina: the result of this session
+    - [x] curate 6 genesets from 004, 006 and 007,
+       - [x] ssgsea (zinbwave corrected counts)
+       - [x] correlate genesets
+       - [x] correlate genesets with archetypes
+    - [x] curate more genesets from 4, 6, 7, 11 and 13 _totally 24, split BRST013 by if pleural or not._
+      	- [x] ssgsea (zinbwave corrected counts)
+       - [x] curate shared archetypes by 3 selection methods (cca.counts, raw.counts(lcpm), )
+         	- [x] ssgsea
+         	- [x] archetype assignment:star:
+      	- [x] correlate genesets by patient _comment: correlations are pretty consistent throughout patients_
+      	- [x] cluster the genesets by patient _comment: clusters are pretty consistent throughout patients_
+    - [x] curate 6 genesets from 5 patients
+       - [x] ssgsea (zinbwave corrected count)
+       - [x] correlate archetypes
+    - [x] pareto: select the k with the lowest variance
+       - [x] curate genesets: select the lowest variance per k
+       - [x] gather
+       - [x] ssgsea (zinbwave corrected count)
+       - [x] correlate archetypes
+    - [ ] pareto & group lasso
+- [ ] progression patterns
+    - [x] archetype (from pareto) vs progression patterns (late or normal)
+    - [ ] phenotype (from ssgsea scores, geneset curated from pareto on cca'd cancer counts) vs progression patterns
 
 ------
 **sscontest**
@@ -223,12 +259,6 @@ velo:/zhaoproject/jing_filter.....
 
 - [x] draft method
 
-**zhaopdxproject**
-
-- [x] check email
-- [x] generate tables
-- [x] prelim analysis
-
 ------
 
 chiproject
@@ -239,21 +269,16 @@ chiproject
 
 **misc**  
 
-  - [ ] docker on unicron _notes: done with r-base_
-      - [ ] run docker inside tmux
-  - [ ] jupyter notebook via docker,  [ref](https://www.dataquest.io/blog/docker-data-science/) (might be helpful)
+  - [x] docker on unicron _notes: done with r-base_
+      - [x] run docker inside tmux
+  - [x] jupyter notebook via docker,  [ref](https://www.dataquest.io/blog/docker-data-science/) (might be helpful)
   - [x] singler in singluarity r on unicron: not working -- rjags has non zero exit status
   - [x] send jeff dir to the pat1 cancer counts
   - [x] send jeff the dropbox link to the figures & tables
   - [x] es.ss de on pareto arcs
   - [x] update 02D_scRNAseq_CNV_subclone@u54
   - [x] ut training
-  - [x] take pics of the figures on small sister's desk and send to her wechat
-  - [x] bioinfo weekly meeting presentation @10 Feb
-  - [ ] NIH Commons ID
-  - [x] update betsy ssgsea commands
-  - [x] update R container in .genomicoderc
-  - [x] report timesheet​
+  - [x] take pics of the figures on small sister's desk
 
 **scripts availability**
 
@@ -266,8 +291,9 @@ chiproject
 **error reports**
 
 - [x] betsy tsne errors _notes: more efficient module, e.g., 21,000 genes x 11,000 cells usually took > 48h to finish.  After the update it takes 56min :))_
+- [x] immclassifier error
 
-#### meeting
+### meeting
 
 - ~~2020.1.15~~  
   - ~~007 pmh not available~~
@@ -278,29 +304,12 @@ chiproject
   - ~~CCA on counts (emailed), respective UMAP~~
   - ~~007 cnv reg by small sis~~
   - ~~try harmony~~
-- 2020-02-04
+- 2020-02-05
   - ~~WES copy number~~
   - ~~pyclone results~~
   - ~~WES higher vs lower coverage compare~~
-- 2020-02-11
-  - ~~harmony on 004 & 6 es.ss~~
-  - ~~umap pkg vs seurat: variable features --> PCA --> UMAP~~
-  - ~~PCA?~~
-  - ~~007pyclone~~
-- 2020-02-18
-  - ~~wrapped up umap & seurat umap results on es.ss~~
-  - ~~betsy umap on es.ss not working~~
-  - ~~pyclone results on 004 and 006~~
-- 2020-02-24
-  - ~~pyclone higher vaf results~~
-  - ~~harmony on counts (variable features ==> pea ==> tsne) not as good as #5 approach~~
-  - ~~trying seurat disp umap on 007cancer h/c2, raw scores done,~~ zinbwaved scores pending
-  - ~~X issuse in read.delim, show variable features from betsy pipeline~~
-- 2020-03-03
-  - ~~pyclone new results, 2 pats, 2 depths~~
-  - ~~002 results clustered by samples~~
 
-##### IBP Mac crash logs
+### IBP Mac crash logs
 
 1. 2020-01-12 18:20, chrome crashed then the OS didn't respond
 2. 2020-01-17 13:06, chrome crashed, tried restarting chrome but stucked at the pwd priviledging step. Then the OS didn't respond.  
@@ -308,10 +317,19 @@ chiproject
 
 
 
+###misc
+
+- [x] immclassifier scores --> notice xuan:red_circle:
+- [x] email aritro: group lasso
+- [x] test diff exp
+  - [x] counts _error pending, have sent jeff the email_
+  - [x] ssgsea
+- [x] update timekiller: 
+  - [x] cor.mtest: output a matrix of p values from the cor.test
+  - [x] write.gmt
+- [ ] new server 129.106.31.84
+
 
 
 Non-lab
 
-- [x] kaming methods & scripts
-  - [x] reproduce
-  - [x] manuscripts
