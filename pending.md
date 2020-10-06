@@ -2,12 +2,14 @@
 
 - [x] ssgsea yuan dataset: legacy geneset and pdx geneset
   - [x] corr
-- [ ] de: de on macrophage related signatures, by umap cluster (raw counts, markers as features)
-- [ ] de: de on macrophage counts, by umap cluster (raw counts, markers as features)
-- [ ] ssgsea: c2 on macrophage; sig of interest: COATES_MACROPHAGE_M1_VS_M2_DN COATES_MACROPHAGE_M1_VS_M2_UP
-- [ ] pareto k = 7
-  - [ ] gather
-- [ ] PDS metadata asked Yuan
+- [x] de: de on macrophage related signatures, by umap cluster (raw counts, markers as features)
+- [x] de: de on macrophage counts, by umap cluster (raw counts, markers as features)
+- [x] ssgsea: c2 on macrophage; sig of interest: COATES_MACROPHAGE_M1_VS_M2_DN COATES_MACROPHAGE_M1_VS_M2_UP
+- [x] pareto k = 7
+  - [x] gather: hallmark
+  - [x] gather: curated
+  - [x] gather: GO
+- [x] PDX metadata asked Yuan
 
 
 
