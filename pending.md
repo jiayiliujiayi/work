@@ -1,3 +1,10 @@
+10.12
+
+- [ ] de ~ scores ~ high/low.a1/a3
+- [ ] cellphoneDB on zlung004
+
+
+
 09.22
 
 - [x] ssgsea yuan dataset: legacy geneset and pdx geneset
