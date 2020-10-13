@@ -1,7 +1,7 @@
 10.12
 
-- [ ] de ~ scores ~ high/low.a1/a3
-- [ ] cellphoneDB on zlung004
+- [x] de ~ scores ~ high/low.a1/a3
+- [x] cellphoneDB on zlung004
 
 
 
