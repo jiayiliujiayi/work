@@ -8,6 +8,7 @@
 - [codepen](https://codepen.io)
 - [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/)
 - [nbpreview/](https://jsvine.github.io/nbpreview/)
+- [regex](https://deerchao.cn/tutorials/regex/regex.htm)
 
 ## graphics  
 - [ASCII Art Archive](https://www.asciiart.eu)  
@@ -30,5 +31,10 @@
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
 - [ebook search](https://www.jiumodiary.com/)
 - [ebook search2 not-free](http://www.lingocn.com/)
+- [ebook search 3](https://www.read678.com/JdBook/lists)
 - [vpn reviews](https://wall101.com/)
+- [keycastr, a keystroke visualizer](https://github.com/keycastr/keycastr)
 
+
+
+### 
