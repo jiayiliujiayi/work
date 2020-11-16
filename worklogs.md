@@ -11,13 +11,15 @@
 
 #### BRST004  
 
-……  
+- [x] QC
+- [x] CNV
+- [x] variants
 
 - normal
   - immune
     - [ ] immclassifier :red_circle:
     - [x] prepare immune counts
-    - [x] ~~ask small sister to run ImmClass~~ used singleR instead because its annotations matches up better with the immune marker levels.  
+    - [x] ~~ask Xuan to run ImmClass~~ used singleR instead because its annotations matches up better with the immune marker levels.  
 - cancer phenotypes
   - [x] Pareto  
   - [x] stat test on RTK among cancer clusters  ~~(consensus clustering on jeff's way)~~ _notes: jeff done consensus clustering, the number of "real" clusterrs are as did_
@@ -26,13 +28,15 @@
 
 #### BRST006  
 
-……  
+- [x] QC
+- [x] CNV
+- [x] variants
 
 - normal
   - immune
     - [ ] immclassifier :red_circle:
     - [x] prepare immune counts
-    - [x] ask small sister to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
+    - [x] ask Xuan to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
 - cancer phenotypes
   - [x] Pareto
 - cancer genotypes 
@@ -40,18 +44,20 @@
 
 #### BRST007  
 
-……  
+- [x] QC
+- [x] CNV
+- [x] variants
 
-- rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( how to confirm there are doublets?? )
+- rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( ~~how to confirm there are doublets??~~)
 - seperate cancer from normal
-  - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: small sister says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then:_ 
+  - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: Xuan says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then:_ 
     - [x] discuss with jeff.  _notes: agreed on "the hclust 1 & 3 as cancers"_
   - [x] infercnv sessions: "chr_exclude = NULL" to include ChrX
     - [x] "ref = random macro & fibro" (running@uni:tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
     - [x] "ref = fibroblasts" (running@uni: tmux) ~~_notes: forgot to clear caches:(( rerunning it now_~~
       - [x] finish the session
-      - [x] ~~update the hm with "chrX" shown~~ wait for small sister's results then update the hm
-    - [x] send jeff: small sister's data: annotated by 1. dendrogram from the original plot, 2. singler annotations, and 3. cancer+singler annotations
+      - [x] ~~update the hm with "chrX" shown~~ wait for Xuan's results then update the hm
+    - [x] send jeff: Xuan's data: annotated by 1. dendrogram from the original plot, 2. singler annotations, and 3. cancer+singler annotations
   - [x] try tsne on the high quality cells (running@velo:tmux; hv been running for ~48h; talked abt this with jeff, updated some files and now running in another session in another tmux)
     - [x] send jeff the network.pdf
     - [x] error from the  new tsne module reported
@@ -60,7 +66,7 @@
     - [x] redo umap on the "filtered" ones
   - [x] check PTPRC levels in the annotated "cancer"s &rarr; ~5% of which are PTPRC+
   - [x] check PTPRC levels in the annotated 'normal's &rarr; same distribution as the cancers on the density plot (.../coh062/../0.1checkMarkers)
-  - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from small sister) 
+  - [x] plot cnv using complexheatmap (questioning cancer/normal annots, wait for the other annot from Xuan) 
 - cancer genotypes
   - [x] pyclone
 
@@ -122,7 +128,7 @@
 
   - [x] ssgsea (zinbwave corrected counts)
 
-- [ ] try tirosh copy number calling pipeline to match up with the infercnv :red_circle:
+- [x] try tirosh copy number calling pipeline to match up with the infercnv :red_circle:
 
   - normal
     - [ ] immclassifier :red_circle:
@@ -182,24 +188,31 @@
 #### integrating all the patients
 
  - [x] email mark and Jeff the normal UMAP, plots, singler and immuclassifier and marker gene levels
-     - [ ] MACROPHAGES
+     - [x] MACROPHAGES
+           - [x] UMAP
+             - [x] variable features of integrated counts
+             - [x] variable features of raw counts
+             - [x] macrophage markers :star: _seperates the cells best​_
+             - [x] macrophage polarization 
+           - [x] de on umap clusters ()
          - [x] integration
          - [x] umap
          - [x] ssgsea-z c7
          - [x] de - genes - umap
-         - [ ] de c7 scores -umap
+         - [x] de c7 scores -umap
  - [x] piecharts of celltypes: cancer normal types, per patient
  - [ ] update cell metadata
      - [x] original metadata
      - [x] singler annotation (hpca)
      - [x] cancer or not
-     - [ ] number of variants
+     - [x] number of variants
      - [x] pattern (late bloomer or other pattern) 
      - [x] DxTime
-     - [ ] Event at the timpoint of Dx? eg Tx?
- - [ ] patient info
+     - [x] Event at the timpoint of Dx? eg Tx?
+     - [ ] BRST013 Dx pending, asked Pat.  
+ - [x] patient info
      - [x] imaging progression pending 
-    - [ ] update events
+    - [x] update events
     - [x] update death time
  - [x] sequencing info
     - [x] update number of cells
@@ -243,13 +256,13 @@
     - [ ] pareto & group lasso
 - [ ] progression patterns
     - [x] archetype (from pareto) vs progression patterns (late or normal)
-    - [ ] phenotype (from ssgsea scores, geneset curated from pareto on cca'd cancer counts) vs progression patterns
+    - [x] phenotype (from ssgsea scores, geneset curated from pareto on cca'd cancer counts) vs progression patterns
 
 ------
 **sscontest**
 
   - [x] zinbwave do ssgsea for jason zinbwave c2h  
-  - [x] ask small sister abt es.ss after zinbwave
+  - [x] ask Xuan abt es.ss after zinbwave
   - [x] test zinbwave@betsy
 
 ------
@@ -278,7 +291,7 @@ chiproject
   - [x] es.ss de on pareto arcs
   - [x] update 02D_scRNAseq_CNV_subclone@u54
   - [x] ut training
-  - [x] take pics of the figures on small sister's desk
+  - [x] take pics of the figures on Xuan's desk
 
 **scripts availability**
 
