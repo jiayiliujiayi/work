@@ -17,7 +17,7 @@
 
 - normal
   - immune
-    - [ ] immclassifier :red_circle:
+    - [x] immclassifier
     - [x] prepare immune counts
     - [x] ~~ask Xuan to run ImmClass~~ used singleR instead because its annotations matches up better with the immune marker levels.  
 - cancer phenotypes
@@ -34,7 +34,7 @@
 
 - normal
   - immune
-    - [ ] immclassifier :red_circle:
+    - [x] immclassifier
     - [x] prepare immune counts
     - [x] ask Xuan to run ImmClass _notes: done in the /data/pub/BRST***ImmClass_
 - cancer phenotypes
@@ -48,7 +48,7 @@
 - [x] CNV
 - [x] variants
 
-- rm doublets?:red_circle: try [scrublet](https://github.com/AllonKleinLab/scrublet) ( ~~how to confirm there are doublets??~~)
+- rm doublets? try [scrublet](https://github.com/AllonKleinLab/scrublet) ( ~~how to confirm there are doublets??~~)
 - seperate cancer from normal
   - [x] wait for xuan's infercnv regression results to differ cancer from normal _notes: Xuan says ~~it'll be done tmr~~ she did a session on ~3k cells subset, hopefully finished by the end of tmr_ // _notes: finished today, seems better then the "cell type unregressed" version, we're trying another session with epithelial cells (annotated by SingleR) included in the counts, then:_ 
     - [x] discuss with jeff.  _notes: agreed on "the hclust 1 & 3 as cancers"_
@@ -128,10 +128,10 @@
 
   - [x] ssgsea (zinbwave corrected counts)
 
-- [x] try tirosh copy number calling pipeline to match up with the infercnv :red_circle:
+- [x] try tirosh copy number calling pipeline to match up with the infercnv 
 
   - normal
-    - [ ] immclassifier :red_circle:
+    - [x] immclassifier 
 
 #### BRST011
 
@@ -142,8 +142,8 @@
   - [x] singler
 - [x] cancer
   - [x] pareto: find the genes enriched near each vertex
-- [ ] normal
-  - [ ] immclassifier :red_circle:
+- [x] normal
+  - [x] immclassifier 
 
 #### BRST013
 
@@ -167,9 +167,9 @@
 
   - [x] pareto: find the genes enriched near each vertex
 
-- [ ] normal
+- [x] normal
 
-  - [ ] immclassifier :red_circle:
+  - [x] immclassifier 
 
 
 
