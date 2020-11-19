@@ -257,6 +257,7 @@
 - [ ] progression patterns
     - [x] archetype (from pareto) vs progression patterns (late or normal)
     - [x] phenotype (from ssgsea scores, geneset curated from pareto on cca'd cancer counts) vs progression patterns
+- [x] compare: [AWCA pam50](https://github.com/DEIB-GECO/BC_Intrinsic_subtyping) vs genefu _notes: genefu better_
 
 ------
 **sscontest**
