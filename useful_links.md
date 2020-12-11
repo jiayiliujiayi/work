@@ -34,6 +34,7 @@
 - [ebook search 3](https://www.read678.com/JdBook/lists)
 - [vpn reviews](https://wall101.com/)
 - [keycastr, a keystroke visualizer](https://github.com/keycastr/keycastr)
+- [convert short links into long](https://sina.lt/restore.html)/[convert short links 2](https://www.sojson.com/dwz/parse.html)
 
 
 
