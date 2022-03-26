@@ -1,3 +1,5 @@
-[worklogs](https://github.com/jiayiliujiayi/work/blob/master/worklogs.md)  
+[Lab Journal](https://github.com/jiayiliujiayi/work/blob/master/LabJournal.md)  
+[Pending Stuffs](https://github.com/jiayiliujiayi/work/blob/master/Pendings.md)  
+[Project Progress](](https://github.com/jiayiliujiayi/work/blob/master/ProjectProgress.md)
+[Meeting Notes](](https://github.com/jiayiliujiayi/work/blob/master/MeetingNotes.md)
 [useful links](https://github.com/jiayiliujiayi/work/blob/master/worklogs.md)
-

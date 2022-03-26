@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "e3a0ca5c3228ca2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "076465db62c20101",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "MeetingNotes.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f0b501d5630af6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "62402b71d0ede3cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d3cd8ea0d295a83",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "838415675538dad0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4588c9f637c50a97",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1a1142552ea9bca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c81c8972923c65a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MeetingNotes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "076465db62c20101",
+  "lastOpenFiles": [
+    "MeetingNotes.md",
+    "README.md",
+    "ProjectProgress.md",
+    "Pendings.md",
+    "pending.md",
+    "LabJournal.md",
+    "useful_links.md",
+    "useful_links-for.work.md",
+    "worklogs.md"
+  ]
+}
