@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "e3a0ca5c3228ca2e",
+    "id": "b835370670532686",
     "type": "split",
     "children": [
       {
-        "id": "076465db62c20101",
+        "id": "8d9527cb0f6bf75d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MeetingNotes.md",
+            "file": "LabJournal.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8f0b501d5630af6f",
+    "id": "5b098a11258e129b",
     "type": "split",
     "children": [
       {
-        "id": "62402b71d0ede3cd",
+        "id": "5ddb506716343963",
         "type": "tabs",
         "children": [
           {
-            "id": "3d3cd8ea0d295a83",
+            "id": "f3a6d890fe569485",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "838415675538dad0",
+            "id": "6e9f95554325ed93",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,20 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "4588c9f637c50a97",
+    "id": "268c80a9831a0149",
     "type": "split",
     "children": [
       {
-        "id": "b1a1142552ea9bca",
+        "id": "5b7857b42e1476ec",
         "type": "tabs",
         "children": [
           {
-            "id": "c81c8972923c65a4",
+            "id": "90f8cb7599c7e111",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MeetingNotes.md",
+                "file": "LabJournal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,16 +87,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "076465db62c20101",
+  "active": "8d9527cb0f6bf75d",
   "lastOpenFiles": [
-    "MeetingNotes.md",
-    "README.md",
-    "ProjectProgress.md",
-    "Pendings.md",
-    "pending.md",
     "LabJournal.md",
-    "useful_links.md",
+    "MeetingNotes.md",
+    "Pendings.md",
     "useful_links-for.work.md",
-    "worklogs.md"
+    "useful_links.md",
+    "README.md",
+    "ProjectProgress.md"
   ]
 }
