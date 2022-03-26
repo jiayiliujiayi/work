@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Pendings.md",
+            "file": "LabJournal.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pendings.md",
+                "file": "LabJournal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "93e649748163c82a",
   "lastOpenFiles": [
+    "LabJournal.md",
+    "MeetingNotes.md",
     "Pendings.md",
     "ProjectProgress.md",
-    "MeetingNotes.md",
-    "LabJournal.md",
     "README.md",
     "useful_links-for.work.md",
     "useful_links.md"

@@ -39,7 +39,13 @@
 			4. re-tar source code and install package from source #debug
 	- Error: "cannot find -lz" #bug 
 
-03.22
+**03.22**
 #AssessPertX
 - [flowchart of categorizing](https://drive.google.com/file/d/1zxn8tRwU6WUHjsGodA8C1ODszrlgak7J/view?usp=sharing)
-- 
+
+**03.26**
+#scRNA-SeqVariability 
+- calculating affinities for scenarios of different cell numbers/type: 
+	- condition 1: 100 cells/type; condition2: 100-1000 cells/type
+	- methods: 1, 3, 7, 9, 11, 12, 13, 14, 15, 16
+- manuscript: almost finishing simulating part
