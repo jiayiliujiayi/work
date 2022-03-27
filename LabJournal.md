@@ -1,16 +1,16 @@
 #### Lab Journal  :book:
 
 # 2022
-**03.16**
-#scRNA-SeqVariability
+**03.16**  
+#scRNA-SeqVariability  
 - Revised .jobs of method
 	- partition=mem --> less queueing
 	- more CPUs
 	- larger RAM
 - waiting for the methodN.job to finish
 
-**03.17**
-#scRNA-SeqVariability
+**03.17**  
+#scRNA-SeqVariability  
 - "connection error" when using mclapply #debug #bug
 	- solutions: 
 		1. using absolute paths
@@ -27,7 +27,7 @@
 	- submit issue to github
 	- answer from developer: install package glmGamPoi
 
-**03.18**
+**03.18**  
 #scRNA-SeqVariability 
 - method1 needs high RAM, set as 400G, with 5 cores
 - tried installing glmGamPoi
@@ -39,12 +39,12 @@
 			4. re-tar source code and install package from source #debug
 	- Error: "cannot find -lz" #bug 
 
-**03.22**
-#AssessPertX
+**03.22**  
+#AssessPertX  
 - [flowchart of categorizing](https://drive.google.com/file/d/1zxn8tRwU6WUHjsGodA8C1ODszrlgak7J/view?usp=sharing)
 
-**03.26**
-#scRNA-SeqVariability 
+**03.26**  
+#scRNA-SeqVariability   
 - calculating affinities for scenarios of different cell numbers/type: 
 	- condition 1: 100 cells/type; condition2: 100-1000 cells/type
 	- methods: 1, 3, 7, 9, 11, 12, 13, 14, 15, 16
