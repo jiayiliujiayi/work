@@ -48,4 +48,4 @@
 - calculating affinities for scenarios of different cell numbers/type: 
 	- condition 1: 100 cells/type; condition2: 100-1000 cells/type
 	- methods: 1, 3, 7, 9, 11, 12, 13, 14, 15, 16
-- manuscript: almost finishing simulating part
+- manuscript: finished simulation part
