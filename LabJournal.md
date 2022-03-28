@@ -49,3 +49,8 @@
 	- condition 1: 100 cells/type; condition2: 100-1000 cells/type
 	- methods: 1, 3, 7, 9, 11, 12, 13, 14, 15, 16
 - manuscript: finished simulation part
+
+**03.27**  
+#scRNA-SeqVariability   
+- finished different cell numbers/type
+	- methods: 1, 12, 14, 15
