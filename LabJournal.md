@@ -52,5 +52,16 @@
 
 **03.27**  
 #scRNA-SeqVariability   
-- finished different cell numbers/type
-	- methods: 1, 12, 14, 15
+- finished different cell numbers/type  
+	- methods: 1, 12, 14, 15  
+#AssessPertX   
+- [slides](https://docs.google.com/presentation/d/18T4jBtUAEKMg5_3sEeDKXSYLtdkPW_xXHf8G7wzn5NU/edit?usp=sharing)  
+	- add plots showing both motif numbers and statistics (havent' finished)  
+	- substitute Fisher's exact tests with Chi square tests  
+
+**03.27, Mon**    
+#AssessPertX 
+- continue adding plots showing both motif numbers and statistics
+#scRNA-SeqVariability   
+- finished different cell numbers/type  
+	- methods: 13
