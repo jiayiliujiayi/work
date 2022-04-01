@@ -1,6 +1,20 @@
 #### Lab Journal  :book:
 
 # 2022
+**03.31, Thu**     
+#scRNA-SeqVariability   
+- updated manuscript until the SCT part
+#AssessPertX 
+- updated 
+
+**03.30, Wed**     
+#scRNA-SeqVariability     
+- updated manuscript until the SCT part  
+#AssessPertX   
+- updated the successful/unsuccessful props, perturbed/not perturbed props, and overlapped/not overlapped props  
+	- found a mistake: "Perturbed or not" should be the reversed of "contain_Identical.PertX.MotifIDs.in.sequence"  
+	- now is fixed  
+  
 **03.29, Tue**    
 #scRNA-SeqVariability   
 - finished different cell numbers/type  -- all methods finished

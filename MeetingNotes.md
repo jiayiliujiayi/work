@@ -4,7 +4,7 @@
 - what does each F mean? 
 - what does Filt mean? 
 - gained/lost motifs: activators or repressors? 
-- delta nMotif (pert - WT) --> positive or negative? 
+- delta $nMotif_{pert - WT}$ --> positive or negative? 
 
 **03.25 Meeting w/ Dr. Li**
 - should keep an eye on Type I Errors
