@@ -1,11 +1,18 @@
 #### Lab Journal  :book:
 
 # 2022
+**04.02, Sat**    
+- built singularity container of rserver, and rserver + bioconductor packages
+
+**04.01, Fri** 
+#AssessPertX 
+- updated analyses: check activator and repressor 
+
 **03.31, Thu**     
 #scRNA-SeqVariability   
 - updated manuscript until the SCT part
 #AssessPertX 
-- updated 
+- updated analyses: how many WT.overlapped are removed? 
 
 **03.30, Wed**     
 #scRNA-SeqVariability     
@@ -14,6 +21,7 @@
 - updated the successful/unsuccessful props, perturbed/not perturbed props, and overlapped/not overlapped props  
 	- found a mistake: "Perturbed or not" should be the reversed of "contain_Identical.PertX.MotifIDs.in.sequence"  
 	- now is fixed  
+- 18:30PM: found everything lost in amarel home directory
   
 **03.29, Tue**    
 #scRNA-SeqVariability   
@@ -34,8 +42,8 @@
 	- methods: 1, 12, 14, 15  
 #AssessPertX   
 - [slides](https://docs.google.com/presentation/d/18T4jBtUAEKMg5_3sEeDKXSYLtdkPW_xXHf8G7wzn5NU/edit?usp=sharing)  
-	- add plots showing both motif numbers and statistics (havent' finished)  
-	- substitute Fisher's exact tests with Chi square tests  
+	- add plots showing both motif numbers and statistics (haven't finished)  
+	- substitute Fisher's exact tests with Chi-square tests  
 
 **03.26**  
 #scRNA-SeqVariability   

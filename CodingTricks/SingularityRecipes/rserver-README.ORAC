@@ -1,0 +1,33 @@
+############# CONTACT #############
+
+Jiayi Liu
+E-mail: jl2791@rutgers.edu
+
+
+############# TITLE #############
+
+rserver singularity images.  
+April, 2, 2022
+
+############# NOTES #############
+
+Files and descriptions: 
+1. rserver_4.1.4-JLiu-jl2791.sif: the singularity image for rstudio server with R 4.1.1
+2. rserver.def: the singularity recipe.  
+3. rserver.job: slurm job file to run rserver
+4. rstudio_4.0.4.sif: deprecated but still executable if lower version of R is preferred
+
+############# USAGE #############
+These are the most simplified steps of using rstudio server in singularity: 
+# Step 1. sym link the image to your home directory: 
+ln -s /projects/community/singularity.images/rserver/rserver_4.1.1-JLiu-jl2791.sif rserver_4.1.1.sif
+# Step 2. edit the rserver.job file: 
+vi rserver.job # or other text editor you prefer
+#	2.1 change $NETID into your own netid
+#	2.2 custom PASSWORD
+# Step 3. submit job
+sbatch rserver.job
+
+############# DISCLAIMER #############
+The image is not fully tested: contact Jiayi if you encounter any issues.  
+

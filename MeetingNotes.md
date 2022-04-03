@@ -1,4 +1,12 @@
 # 2022
+**04.01, Fri, Meeting w/ Dr. Li**    
+- manuscript: 
+	- focus on same cell number scenarios
+	- add toy examples for methods part
+	- big picture: evaluation
+- check: under SCT, gene variance changed? 
+- check: variance vs cell number in denSNE manuscript 
+
 **03.29 Tue Meeting w/ Dr. Kreimer**
 - For the perturbed/not perturbed motifs, check if they have overlapped/not overlapped identical motifs
 - what does each F mean? 
@@ -16,6 +24,6 @@
 
 **03.24 Meeting w/ Dr. Kreimer**
 - Fisher's test for subgroups? 
-	- crosstable, chi square? 
+	- crosstable, chi-square? 
 - add raw numbers of motifs
-- wilcox on F=0 motifs
+- Wilcox on F=0 motifs

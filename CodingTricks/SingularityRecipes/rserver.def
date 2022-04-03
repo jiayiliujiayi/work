@@ -1,0 +1,107 @@
+# definition file for jupyter notebook under singularity 3.8.3
+# Heavily modified from rocker-versioned Dockerfile.
+
+## Tell the Singularity bootstrap agent to pull the image 
+## rocker/rstudio from the Docker container library. 
+## Other available images by the rocker team: 
+## https://hub.docker.com/u/rocker
+BootStrap: docker
+    From: rocker/rstudio:4.1.1
+
+%labels
+    Version v0.0.1
+
+%help
+    Please contact Jiayi Liu for help: jl2791@scarletmail.rutgers.edu
+
+%post
+## basic stuffs
+    apt-get update
+    apt-get install -y --no-install-recommends \
+    bash-completion \
+    ca-certificates \
+    locales
+    echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen && \
+    /usr/sbin/locale-gen en_US.UTF-8 && \
+    /usr/sbin/update-locale LANG=en_US.UTF-8
+
+## misc stuffs
+    apt-get update && apt-get install -y --no-install-recommends \
+    file \
+    less \
+    openssl \
+    libssl-dev \
+    curl \
+    libcurl4-openssl-dev \
+
+## devel tools
+    apt-get update && apt-get install -y --no-install-recommends \
+    g++ \
+    gfortran \
+    make \
+    cmake \
+    autoconf 
+
+# Languages
+    apt-get install -y --no-install-recommends \
+    perl \
+    tcl8.6-dev \
+    tk8.6-dev 
+
+# Compression
+    apt-get install -y --no-install-recommends \
+    zlib1g-dev \
+    libbz2-dev \
+    liblzma-dev \
+    libxml2-dev \
+    libglpk-dev \
+    unzip \
+    zip
+
+# Math
+    apt-get install -y --no-install-recommends \
+    libblas-dev \
+    libatlas3-base 
+
+# Plotting stuff
+    apt-get install -y --no-install-recommends \
+    libpng-dev \
+    libtiff5-dev \
+    libjpeg-dev 
+
+# Ghostscript, for making PDFs.
+    apt-get install -y --no-install-recommends \
+    texinfo \
+    texlive-extra-utils \
+    texlive-fonts-recommended \
+    texlive-fonts-extra \
+    texlive-latex-recommended \
+    ghostscript libgs-dev \
+    gsfonts \
+    fonts-texgyre
+
+# Miscellaneous libraries
+    apt-get install -y --no-install-recommends \
+    libreadline-dev \
+    libpcre3-dev \
+    libgsl-dev \
+    libssl-dev \
+    libcurl4-openssl-dev
+
+# jags for infercnv
+    apt-get install -y --no-install-recommends \
+    jags \
+    libxml2-dev
+
+
+# Rlibs
+## useful packages
+Rscript -e "install.packages(c('Seurat', 'dplyr', 'devtools', 'rstatix', 'parallel', 'Matrix', 'ggpubr', 'ggsci', 'rstatix', 'rjags', 'ggridges', 'remotes', 'umap', 'Rtsne', 'stats', 'survminer', 'plyr', 'dplyr', 'tidyverse', 'copula', 'pscl', 'MASS'))"
+Rscript -e "library(devtools); devtools::install_github('JSB-UCLA/scDesign2')"
+
+## bioconductor packges
+Rscript -e "if(!requireNamespace('BiocManager', quietly=TRUE)) install.packages('BiocManager'); BiocManager::install()"
+Rscript -e "bio_pkgs <- c('ComplexHeatmap', 'infercnv', 'SingleR', 'celldex', 'clusterProfiler', 'scRNAseq', 'SingleCellExperiment', 'edgeR', 'gsva'); BiocManager::install(bio_pkgs)"
+
+## update packages
+Rscript -e "install.packages(c('mgcv', 'lattice', 'nlme', 'survival'))"

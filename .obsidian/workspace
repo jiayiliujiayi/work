@@ -7,12 +7,8 @@
         "id": "93e649748163c82a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "LabJournal.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LabJournal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +84,15 @@
   },
   "active": "93e649748163c82a",
   "lastOpenFiles": [
-    "LabJournal.md",
-    "README.md",
-    "useful_links.md",
+    "CodingTricks/SingularityRecipes/rserver.def.md",
+    "CodingTricks/SingularityRecipes/rserver-README.ORAC.md",
     "useful_links-for.work.md",
-    "Pendings.md",
+    "useful_links.md",
+    "ProjectProgress.md",
+    "MeetingNotes.md",
+    "LabJournal.md",
     "CodingTricks/zshrc.md",
     "CodingTricks/ssh keys.md",
-    "CodingTricks/bashrc.md",
-    "MeetingNotes.md",
-    "ProjectProgress.md"
+    "README.md"
   ]
 }
