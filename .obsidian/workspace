@@ -7,8 +7,12 @@
         "id": "93e649748163c82a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "CodingTricks/zshrc.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CodingTricks/zshrc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "93e649748163c82a",
   "lastOpenFiles": [
-    "CodingTricks/SingularityRecipes/rserver.def.md",
-    "CodingTricks/SingularityRecipes/rserver-README.ORAC.md",
-    "useful_links-for.work.md",
-    "useful_links.md",
-    "ProjectProgress.md",
-    "MeetingNotes.md",
-    "LabJournal.md",
     "CodingTricks/zshrc.md",
     "CodingTricks/ssh keys.md",
-    "README.md"
+    "useful_links-for.work.md",
+    "useful_links.md",
+    "README.md",
+    "Pendings.md",
+    "ProjectProgress.md",
+    "LabJournal.md",
+    "MeetingNotes.md",
+    "CodingTricks/SingularityRecipes/rserver.def.md"
   ]
 }
