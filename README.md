@@ -2,4 +2,4 @@
 [Pending Stuffs](https://github.com/jiayiliujiayi/work/blob/master/Pendings.md)  
 [Project Progress](https://github.com/jiayiliujiayi/work/blob/master/ProjectProgress.md)   
 [Meeting Notes](https://github.com/jiayiliujiayi/work/blob/master/MeetingNotes.md)   
-[useful links](https://github.com/jiayiliujiayi/work/blob/master/worklogs.md)
+[useful links](https://github.com/jiayiliujiayi/work/blob/master/useful_links.md) 

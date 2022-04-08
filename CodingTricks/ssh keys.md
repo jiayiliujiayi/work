@@ -8,6 +8,7 @@ ssh-keygen -t rsa
 ssh-copy-id -i ~/.ssh/id_rsa UserName@ServerIP 
 
 # alternative 2
+## @local
 scp $HOME/.ssh/id_rsa.pub UserName@ServerIP:~/.ssh
 ## @server
 cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys 

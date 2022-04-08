@@ -19,15 +19,22 @@ Files and descriptions:
 
 ############# USAGE #############
 These are the most simplified steps of using rstudio server in singularity: 
-# Step 1. sym link the image to your home directory: 
+# Step 1. sym link the image to your working directory: 
 ln -s /projects/community/singularity.images/rserver/rserver_4.1.1-JLiu-jl2791.sif rserver_4.1.1.sif
-# Step 2. edit the rserver.job file: 
+# Step 2. copy the rserver.job to your working directory and edit it: 
 vi rserver.job # or other text editor you prefer
-#	2.1 change $NETID into your own netid
-#	2.2 custom PASSWORD
+#       2.1 change $NETID into your own netid
+#       2.2 custom PASSWORD
 # Step 3. submit job
 sbatch rserver.job
+# Step 4. you'll see a file in your working directory, looking like this: rserver.job.18478350; this is the output logging file of your rserver slurm job. 
+# Step 5. look inside the logging file: 
+cat rserver.job.18478350
+# there will be a line looking like this: 
+# ssh -N -L 8787:slepner030:59376 $NETID@$IP
+# Step 6. open your local terminal, and run the line starting with "ssh" in the logging file: 
+ssh -N -L 8787:slepner030:59376 jl2791@amarel
+# Step 7. open your browser, go to http://localhost:8787/, and Voilà!
 
 ############# DISCLAIMER #############
-The image is not fully tested: contact Jiayi if you encounter any issues.  
-
+The image is not fully tested, remember to backup important files. Any discussionw/ Jiayi is welcome regarding the images if you encounter any issues.  :

@@ -1,12 +1,11 @@
 # definition file for jupyter notebook under singularity 3.8.3
-# Heavily modified from rocker-versioned Dockerfile.
 
 ## Tell the Singularity bootstrap agent to pull the image 
-## rocker/rstudio from the Docker container library. 
-## Other available images by the rocker team: 
-## https://hub.docker.com/u/rocker
+## jupyter/scipy-notebook stack from the Docker container library. 
+## Other available images: 
+## https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html
 BootStrap: docker
-    From: rocker/rstudio:4.1.1
+	From: jupyter/tensorflow-notebook
 
 %labels
     Version v0.0.1
@@ -14,7 +13,7 @@ BootStrap: docker
 %help
     Please contact Jiayi Liu for help: jl2791@scarletmail.rutgers.edu
 
-%post
+# installation
 ## basic stuffs
     apt-get update
     apt-get install -y --no-install-recommends \
@@ -93,27 +92,39 @@ BootStrap: docker
     jags \
     libxml2-dev
 
+## jags for infercnv
+    apt-get install -y --no-install-recommends \
+    jags \
+    libxml2-dev
 
-# Rlibs
-## useful packages
-Rscript -e "install.packages(c('Seurat', 'dplyr', 'devtools', 'rstatix', \
-'parallel', 'PMCMRplus', 'ggpubr', 'ggsci', 'rstatix', 'rjags', 'ggridges', \
-'remotes', 'umap', 'Rtsne', 'stats', 'survminer', 'plyr', 'dplyr', 'tidyverse', \
-'copula', 'pscl', 'MASS', 'BayesFactor', 'bayestestR', 'BWStest', 'mgcv', \
-'lattice', 'nlme', 'survival', 'GDAtools', 'prismatic', 'ggside', 'FactoMineR', 
-'gdtools', 'GGally', 'deSolve', 'gmp', 'performance', 'Rmpfr'))"
-Rscript -e "library(devtools); devtools::install_github('JSB-UCLA/scDesign2')"
-Rscript -e "library(devtools); devtools::install_github('gadenbuie/rsthemes')"
-Rscript -e "library(rsthemes); rsthemes::install_rsthemes()"
-## Matrix 1.4
-Rscript -e "install.packages('https://cran.r-project.org/src/contrib/Archive/Matrix/Matrix_1.4-0.tar.gz', repos = NULL, type='source')"
+# conda
+## dependencies
+apt-get install -y --no-install-recommends \
+    libgl1-mesa-glx \
+    libegl1-mesa \
+    libxrandr2 libxrandr2 libxss1 \
+    libxcursor1 libxcomposite1 \
+    libasound2 libxi6 libxtst6
 
+## conda per se
+wget --quiet --no-check-certificate https://repo.anaconda.com/archive/https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh -O ~/anaconda.sh && \
+    /bin/bash ~/anaconda.sh -b -p /opt/conda && \
+    rm ~/anaconda.sh && \
+    ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh && \
+    echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \
+    echo "conda activate base" >> ~/.bashrc && \
+    find /opt/conda/ -follow -type f -name '*.a' -delete && \
+    find /opt/conda/ -follow -type f -name '*.js.map' -delete && \
+    /opt/conda/bin/conda clean -afy
+export $PATH=/opt/conda/bin:$PATH
 
-## bioconductor packges
-Rscript -e "if(!requireNamespace('BiocManager', quietly=TRUE)) install.packages('BiocManager'); BiocManager::install()"
-Rscript -e "bio_pkgs <- c('ComplexHeatmap', 'infercnv', 'SingleR', 'celldex', \
-'clusterProfiler', 'scRNAseq', 'SingleCellExperiment', 'edgeR', 'gsva', \
-'HDF5Array', 'rhdf5filters', 'glmGamPoi', 'rhdf5'); BiocManager::install(bio_pkgs)"
+## set up bioconda
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
 
-## update packages
-Rscript -e "install.packages(c('mgcv', 'lattice', 'nlme', 'survival'))"
+## install bwa environment
+conda install bwa
+
+# jupyter lab
+conda install -c conda-forge jupyterlab

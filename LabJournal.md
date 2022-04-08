@@ -1,8 +1,32 @@
-#### Lab Journal  :book:
+## Lab Journal  📖
 
-# 2022
+### 2022  
+**04.05, Tue**    
+#AssessPertX 
+- activator or repressor
+	- passed all 4 filters
+	- didn't pass all 4 filters
+- rotatioin summary
+#coding
+- trying conda+jupyterlab singularity recipes
+
+**04.04, Mon**    
+#AssessPertX 
+- activator or repressor
+	- log2FC_72h
+	- func_72h
+
+**04.03, Sun**    
+#AssessPertX 
+- updated KW tests into trimmed one way ANOVA
+
+**04.03, Sun**    
+- built singularity of more packages installed
+#scRNA-SeqVariability 
+- updated manuscript
+
 **04.02, Sat**    
-- built singularity container of rserver, and rserver + bioconductor packages
+- built singularity container of rserver, and rserver + Bioconductor packages
 
 **04.01, Fri** 
 #AssessPertX 
