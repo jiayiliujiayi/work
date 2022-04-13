@@ -1,12 +1,27 @@
 ## Lab Journal  📖
 
 ### 2022  
+**04.11, Mon**    
+#AssessPertX  
+- delta n_motifs  
+	- overall  
+		- passed all 4 filters: stat tests among 3 pert  
+		- didn't pass all 4 filters: stat tests among 3 pert  
+	- positive n_motifs  
+	- negative n_motifs  
+#scRNA-SeqVariability   
+- figuring out SCT vs counts, variance change, only check altered genes   
+#coding  
+- trying conda+jupyterlab singularity recipes  
+	- jlab works
+	- conda pending trying
+
 **04.05, Tue**    
 #AssessPertX 
 - activator or repressor
 	- passed all 4 filters
 	- didn't pass all 4 filters
-- rotatioin summary
+- rotation summary
 #coding
 - trying conda+jupyterlab singularity recipes
 

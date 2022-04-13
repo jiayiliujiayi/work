@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f73716f5f0241278",
+        "id": "7330ac9fc756d66d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "LabJournal.md",
+            "file": "CodingTricks/zshrc.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LabJournal.md",
+                "file": "CodingTricks/zshrc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f73716f5f0241278",
+  "active": "7330ac9fc756d66d",
   "lastOpenFiles": [
+    "CodingTricks/zshrc.md",
     "LabJournal.md",
     "MeetingNotes.md",
-    "CodingTricks/zshrc.md",
     "CodingTricks/ssh keys.md",
-    "README.md",
     "useful_links.md",
     "Pendings.md",
-    "useful_links-for.work.md",
     "ProjectProgress.md",
+    "README.md",
+    "useful_links-for.work.md",
     "CodingTricks/SingularityRecipes/rserver.def.md"
   ]
 }

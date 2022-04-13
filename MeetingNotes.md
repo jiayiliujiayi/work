@@ -1,4 +1,19 @@
 # 2022
+
+**04.12 Tue Meeting w/ Dr. Kreimer**  
+- activators/repressors:    
+	- reverse the categorizing because log2FC = log2(WT/Pert). 
+	- tfbs_func: 1&2 activators, 3&4 repressors
+- read papers regarding mpra and predictions
+
+**04.08, Fri, Meeting w/ Dr. Li**    
+- manuscript:   
+	- add toy examples for methods part  
+	- QQ plot for type I error
+	- big picture: Best practices in differential variability analysis of single-cell gene expression data  
+- check: under SCT, gene variance changed?   
+- check: variance vs cell number in denSNE manuscript  
+
 **04.05 Tue Meeting w/ Dr. Kreimer**  
 - activators/repressors: add "filter" (F1-F4) criterias
 - for pertX, wilcox test on:
