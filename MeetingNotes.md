@@ -1,10 +1,22 @@
 # 2022
+**04.22, Fri, Meeting w/ Dr. Li**    
+- manuscript:   
+	- Fig1: add arrows; remove dashed boxes; DM names
+	- Fig2: QQ plot: gray x=y line; try -log10p; type I error as supplementary
+	- remove subsubsections
+- check: under norm methods, gene variance changed?   
+- check: variance vs cell number in denSNE manuscript  
+
+**04.18 Mon Meeting w/ Dr. Li**  
+- manuscript
+	- finish results (effect of norm method & effect of nFeatures)
+	- schematic workflow
 
 **04.12 Tue Meeting w/ Dr. Kreimer**  
 - activators/repressors:    
 	- reverse the categorizing because log2FC = log2(WT/Pert). 
 	- tfbs_func: 1&2 activators, 3&4 repressors
-- read papers regarding mpra and predictions
+- read papers regarding MPRA and predictions
 
 **04.08, Fri, Meeting w/ Dr. Li**    
 - manuscript:   
@@ -29,7 +41,7 @@
 	- focus on same cell number scenarios  
 	- add toy examples for methods part  
 	- big picture: evaluation  
-- check: under SCT, gene variance changed?   
+- Check: under SCT, gene variance changed?   
 - check: variance vs cell number in denSNE manuscript   
 
 **03.29 Tue Meeting w/ Dr. Kreimer**  

@@ -1,6 +1,40 @@
 ## Lab Journal  📖
 
 ### 2022  
+**04.20, Wed**    
+- amarel maintenance
+
+**04.19, Tue**    
+- amarel maintenance 
+
+**04.18, Mon**    
+- read literatures
+- amarel maintenance
+
+**04.15, Fri**    
+- sick
+
+**04.14, Thu**    
+- sick
+
+**04.13, Wed**    
+#AssessPertX  
+-  read literatures
+
+**04.13, Wed**    
+#AssessPertX  
+-  read literatures
+#scRNA-SeqVariability 
+- updat manuscript
+
+**04.12, Tue**    
+#AssessPertX  
+-  read literatures
+
+**04.12, Tue**    
+#AssessPertX  
+-  removed n_gained vs n_lost analyses
+
 **04.11, Mon**    
 #AssessPertX  
 - delta n_motifs  
