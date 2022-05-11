@@ -1,4 +1,17 @@
 # 2022
+**0501 Mon Meeting w/ Dr. Kreimer**  
+- Analyses 
+	- real motifs: overlapped WTs motifs: to be finished
+	- nonmotifs: overlapped: to be finished; MPRA output.  
+- Prediction: continue working on them
+
+**04.26 Tue Meeting w/ Dr. Kreimer**  
+- redo analyses:    
+	- F(all)=0 vs all, F(all)=1 vs all, between pertX 
+	- nGained and nLost comparision 
+	- overlapped WTs analyses 
+- predictions: ask Justin for the scripts and start working on it!  
+
 **04.22, Fri, Meeting w/ Dr. Li**    
 - manuscript:   
 	- Fig1: add arrows; remove dashed boxes; DM names

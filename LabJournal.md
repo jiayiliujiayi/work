@@ -1,6 +1,13 @@
 ## Lab Journal  📖
 
 ### 2022  
+**05.09, Mon**    
+- reran the real motifs categorizing 
+- found out how to solve root issue of conda container: copy an env as a user instead of using the base env.  
+
+**04.24, Mon**    
+- amarel maintenance 
+
 **04.20, Wed**    
 - amarel maintenance
 
